@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security reports
+    url: https://github.com/eyupk3/awesome-expo-react-native-dx/security/advisories/new
+    about: Report security concerns privately via GitHub Security Advisories.

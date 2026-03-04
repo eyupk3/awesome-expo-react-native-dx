@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/eyupk3/awesome-expo-react-native-dx/blob/main/data/resources.schema.json",
+  "title": "Expo + React Native DX Resource Catalog",
+  "description": "Schema for data/resources.yaml entries.",
+  "type": "array",
+  "minItems": 60,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name",
+      "url",
+      "category",
+      "platform",
+      "type",
+      "description",
+      "last_verified",
+      "source_kind",
+      "maintained",
+      "tags"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 2
+      },
+      "url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https://"
+      },
+      "category": {
+        "type": "string",
+        "enum": [
+          "Official Docs & Upgrade Guides",
+          "Starter Kits & Boilerplates",
+          "Navigation & Routing",
+          "State, Data Fetching & Caching",
+          "UI, Design Systems & Theming",
+          "Forms & Validation",
+          "Testing & QA",
+          "Performance & Profiling",
+          "Build, Release & EAS",
+          "Native Modules & Device APIs",
+          "Learning Resources (high-signal only)"
+        ]
+      },
+      "platform": {
+        "type": "string",
+        "enum": ["expo", "react-native", "both"]
+      },
+      "type": {
+        "type": "string",
+        "enum": ["library", "tool", "template", "article", "video", "repo", "service"]
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 140
+      },
+      "last_verified": {
+        "type": "string",
+        "format": "date"
+      },
+      "source_kind": {
+        "type": "string",
+        "enum": ["official", "community", "commercial"]
+      },
+      "license": {
+        "type": ["string", "null"]
+      },
+      "maintained": {
+        "type": "string",
+        "enum": ["yes", "unknown", "no"]
+      },
+      "status": {
+        "type": "string",
+        "enum": ["active", "deprecated"]
+      },
+      "tags": {
+        "type": "array",
+        "maxItems": 4,
+        "items": {
+          "type": "string",
+          "minLength": 2
+        },
+        "uniqueItems": true
+      }
+    }
+  }
+}

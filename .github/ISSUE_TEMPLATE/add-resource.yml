@@ -1,0 +1,52 @@
+name: Add Resource
+about: Suggest a new resource for Expo + React Native DX
+labels: ["enhancement", "good first issue"]
+body:
+  - type: input
+    id: resource_name
+    attributes:
+      label: Resource name
+    validations:
+      required: true
+
+  - type: input
+    id: resource_url
+    attributes:
+      label: Resource URL (HTTPS)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Official Docs & Upgrade Guides
+        - Starter Kits & Boilerplates
+        - Navigation & Routing
+        - State, Data Fetching & Caching
+        - UI, Design Systems & Theming
+        - Forms & Validation
+        - Testing & QA
+        - Performance & Profiling
+        - Build, Release & EAS
+        - Native Modules & Device APIs
+        - Learning Resources (high-signal only)
+    validations:
+      required: true
+
+  - type: textarea
+    id: why_valuable
+    attributes:
+      label: Why is this valuable?
+      description: Explain in at least one sentence why this helps Expo/RN DX.
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Optional context like maintenance signals or alternatives.
+    validations:
+      required: false

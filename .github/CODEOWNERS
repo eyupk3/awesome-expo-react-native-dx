@@ -1,0 +1,7 @@
+# Default ownership
+* @eyupk3
+
+# Critical paths
+/data/ @eyupk3
+/scripts/ @eyupk3
+/.github/workflows/ @eyupk3

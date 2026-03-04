@@ -1,0 +1,25 @@
+{
+  "name": "awesome-expo-react-native-dx",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Curated Expo + React Native DX resources with automated quality checks and weekly health validation.",
+  "license": "CC0-1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-resources.mjs",
+    "stale": "node scripts/check-staleness.mjs",
+    "readme:generate": "node scripts/generate-readme.mjs",
+    "link:check": "node scripts/check-links.mjs",
+    "lint:md": "markdownlint-cli2 '**/*.md' '#node_modules'",
+    "check": "npm run validate && npm run stale && npm run readme:generate && npm run link:check && npm run lint:md"
+  },
+  "devDependencies": {
+    "date-fns": "^4.1.0",
+    "js-yaml": "^4.1.0",
+    "markdownlint-cli2": "^0.18.1",
+    "zod": "^4.3.6"
+  }
+}
