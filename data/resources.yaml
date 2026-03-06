@@ -479,22 +479,6 @@
     - design-system
     - typescript
     - ui
-- id: "gluestack-ui-intro"
-  name: "Gluestack UI Introduction"
-  url: "https://gluestack.io/ui/docs/home/overview/introduction"
-  category: "UI & Styling"
-  subcategory: "Component Libraries"
-  platform: "both"
-  type: "article"
-  description: "Cross-platform UI primitives and styled components for mobile and web products."
-  last_verified: "2026-03-04"
-  source_kind: "community"
-  license: null
-  maintained: "yes"
-  tags:
-    - ui-kit
-    - components
-    - cross-platform
 - id: "dripsy"
   name: "Dripsy"
   url: "https://github.com/nandorojo/dripsy"
