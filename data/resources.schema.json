@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "minItems": 60,
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 2
+      },
+      "url": {
+        "type": "string",
+        "format": "uri"
+      },
+      "category": {
+        "type": "string",
+        "enum": [
+          "Docs & Upgrade Guides",
+          "Starter Kits & Templates",
+          "Navigation",
+          "State & Data",
+          "Backend & Auth",
+          "UI & Styling",
+          "Animation & Gestures",
+          "UX Libraries",
+          "Forms & Validation",
+          "Media & Camera",
+          "Device APIs",
+          "Accessibility & i18n",
+          "Push Notifications",
+          "Analytics & Monitoring",
+          "Monetization",
+          "Platform & Native Architecture",
+          "Build & Release",
+          "Testing & Quality",
+          "Performance & Profiling",
+          "Learning & Community"
+        ]
+      },
+      "subcategory": {
+        "type": "string",
+        "enum": [
+          "Expo Docs",
+          "React Native Docs",
+          "Upgrade Tools",
+          "Official Starters",
+          "CLIs & Generators",
+          "Community Templates",
+          "React Navigation",
+          "Expo Router",
+          "Server State & Caching",
+          "Client State",
+          "Local Storage & Persistence",
+          "BaaS Platforms",
+          "Auth Providers & SDKs",
+          "Expo UI",
+          "Component Libraries",
+          "Styling & Theming",
+          "Icons & SVG",
+          "Animation Libraries",
+          "Graphics & Rendering",
+          "Gestures",
+          "Sheets",
+          "Toasts & Alerts",
+          "Error Handling",
+          "Form Libraries",
+          "Schema Validation",
+          "Image & Video",
+          "Camera & Vision",
+          "Maps & Location",
+          "Device Utilities",
+          "Accessibility",
+          "Localization",
+          "Push Services",
+          "Analytics & Attribution",
+          "Crash Reporting",
+          "In-App Purchases & Subscriptions",
+          "Expo Modules & Config",
+          "Development Builds",
+          "React Native Architecture",
+          "EAS Pipeline",
+          "Release Automation",
+          "Unit & Component Testing",
+          "E2E Testing",
+          "CI Workflows",
+          "Lists & Rendering",
+          "Runtime & Engine",
+          "Bundle Analysis",
+          "Production Apps",
+          "Curated Lists",
+          "News & Updates",
+          "Tutorials & Feeds"
+        ]
+      },
+      "platform": {
+        "type": "string",
+        "enum": [
+          "expo",
+          "react-native",
+          "both"
+        ]
+      },
+      "type": {
+        "type": "string",
+        "enum": [
+          "library",
+          "tool",
+          "template",
+          "article",
+          "video",
+          "repo",
+          "service"
+        ]
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 140
+      },
+      "last_verified": {
+        "type": "string",
+        "format": "date",
+        "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+      },
+      "source_kind": {
+        "type": "string",
+        "enum": [
+          "official",
+          "community",
+          "commercial"
+        ]
+      },
+      "license": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "maintained": {
+        "type": "string",
+        "enum": [
+          "yes",
+          "unknown",
+          "no"
+        ]
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "active",
+          "deprecated"
+        ]
+      },
+      "tags": {
+        "maxItems": 4,
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 2
+        }
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "url",
+      "category",
+      "platform",
+      "type",
+      "description",
+      "last_verified",
+      "source_kind",
+      "maintained",
+      "tags"
+    ],
+    "additionalProperties": false
+  },
+  "$id": "https://github.com/eyupk3/awesome-expo-react-native-dx/blob/main/data/resources.schema.json",
+  "title": "Expo + React Native DX Resource Catalog",
+  "description": "Schema for data/resources.yaml entries."
+}

@@ -1,0 +1,2193 @@
+# yaml-language-server: $schema=./resources.schema.json
+- id: "expo-docs"
+  name: "Expo Docs"
+  url: "https://docs.expo.dev/"
+  category: "Docs & Upgrade Guides"
+  subcategory: "Expo Docs"
+  platform: "expo"
+  type: "article"
+  description: "Official Expo documentation portal covering setup, APIs, guides, and deployment."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - official
+    - docs
+    - expo
+- id: "expo-sdk-55-changelog"
+  name: "Expo SDK 55 Changelog"
+  url: "https://expo.dev/changelog/sdk-55"
+  category: "Docs & Upgrade Guides"
+  subcategory: "Expo Docs"
+  platform: "expo"
+  type: "article"
+  description: "Release notes for SDK 55 with upgrade guidance and major platform changes."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - release
+    - upgrade
+    - sdk-55
+- id: "expo-upgrade-walkthrough"
+  name: "Expo SDK Upgrade Walkthrough"
+  url: "https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/"
+  category: "Docs & Upgrade Guides"
+  subcategory: "Expo Docs"
+  platform: "expo"
+  type: "article"
+  description: "Step-by-step process to safely upgrade Expo SDK versions in existing apps."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - upgrade
+    - guide
+    - expo
+- id: "expo-router-docs"
+  name: "Expo Router Docs"
+  url: "https://docs.expo.dev/router/introduction/"
+  category: "Docs & Upgrade Guides"
+  subcategory: "Expo Docs"
+  platform: "expo"
+  type: "article"
+  description: "Official file-based routing docs for Expo Router, including web and native usage."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - routing
+    - expo-router
+    - official
+- id: "eas-docs"
+  name: "EAS Documentation"
+  url: "https://docs.expo.dev/eas/"
+  category: "Docs & Upgrade Guides"
+  subcategory: "Expo Docs"
+  platform: "expo"
+  type: "article"
+  description: "Official guides for build, submit, update, metadata, and automation with EAS."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - eas
+    - ci-cd
+    - official
+- id: "react-native-docs"
+  name: "React Native Docs"
+  url: "https://reactnative.dev/docs/getting-started"
+  category: "Docs & Upgrade Guides"
+  subcategory: "React Native Docs"
+  platform: "react-native"
+  type: "article"
+  description: "Official React Native documentation for setup, core APIs, and architecture."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - official
+    - docs
+    - react-native
+- id: "react-native-upgrade-helper"
+  name: "React Native Upgrade Helper"
+  url: "https://react-native-community.github.io/upgrade-helper/"
+  category: "Docs & Upgrade Guides"
+  subcategory: "Upgrade Tools"
+  platform: "react-native"
+  type: "tool"
+  description: "Compare diffs between RN versions to perform safer upgrades with fewer regressions."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - upgrade
+    - tooling
+    - react-native
+- id: "react-native-082-release"
+  name: "React Native 0.82 Release"
+  url: "https://reactnative.dev/blog/2025/10/08/react-native-0.82"
+  category: "Docs & Upgrade Guides"
+  subcategory: "React Native Docs"
+  platform: "react-native"
+  type: "article"
+  description: "Official release post detailing React Native 0.82 updates, fixes, and migration notes."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - release
+    - upgrade
+    - react-native
+- id: "create-expo-app-guide"
+  name: "Create Expo App Guide"
+  url: "https://docs.expo.dev/more/create-expo/"
+  category: "Starter Kits & Templates"
+  subcategory: "Official Starters"
+  platform: "expo"
+  type: "article"
+  description: "Official guide for bootstrapping Expo projects with templates and flags."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - starter
+    - template
+    - official
+- id: "expo-template-default"
+  name: "Expo Default Template"
+  url: "https://github.com/expo/expo/tree/main/templates/expo-template-default"
+  category: "Starter Kits & Templates"
+  subcategory: "Official Starters"
+  platform: "expo"
+  type: "template"
+  description: "Canonical Expo template with current defaults and baseline project structure."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - template
+    - starter
+    - expo
+- id: "expo-template-tabs"
+  name: "Expo Tabs Template"
+  url: "https://github.com/expo/expo/tree/main/templates/expo-template-tabs"
+  category: "Starter Kits & Templates"
+  subcategory: "Official Starters"
+  platform: "expo"
+  type: "template"
+  description: "Expo starter template featuring tab navigation and common app shell patterns."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - template
+    - tabs
+    - expo
+- id: "ignite-cli"
+  name: "Ignite CLI"
+  url: "https://github.com/infinitered/ignite"
+  category: "Starter Kits & Templates"
+  subcategory: "CLIs & Generators"
+  platform: "react-native"
+  type: "tool"
+  description: "Battle-tested React Native boilerplate generator focused on scalable app setup."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - boilerplate
+    - cli
+    - react-native
+- id: "create-expo-stack"
+  name: "Create Expo Stack"
+  url: "https://github.com/roninoss/create-expo-stack"
+  category: "Starter Kits & Templates"
+  subcategory: "CLIs & Generators"
+  platform: "both"
+  type: "tool"
+  description: "CLI to bootstrap Expo apps with routing, styling, and backend stack options."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - starter
+    - cli
+    - expo
+- id: "create-t3-turbo"
+  name: "Create T3 Turbo"
+  url: "https://github.com/t3-oss/create-t3-turbo"
+  category: "Starter Kits & Templates"
+  subcategory: "Community Templates"
+  platform: "both"
+  type: "repo"
+  description: "Monorepo starter including Expo app and shared packages for full-stack setups."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - monorepo
+    - starter
+    - turbo
+- id: "react-navigation-getting-started"
+  name: "React Navigation Docs"
+  url: "https://reactnavigation.org/docs/getting-started"
+  category: "Navigation"
+  subcategory: "React Navigation"
+  platform: "both"
+  type: "article"
+  description: "Standard navigation solution for React Native with stack, tabs, and deep linking."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - navigation
+    - routing
+    - docs
+- id: "react-navigation-native-stack"
+  name: "React Navigation Native Stack"
+  url: "https://reactnavigation.org/docs/native-stack-navigator"
+  category: "Navigation"
+  subcategory: "React Navigation"
+  platform: "both"
+  type: "article"
+  description: "Native stack navigator docs for better performance and platform-native transitions."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - navigation
+    - native-stack
+    - performance
+- id: "react-navigation-deep-linking"
+  name: "React Navigation Deep Linking"
+  url: "https://reactnavigation.org/docs/configuring-links"
+  category: "Navigation"
+  subcategory: "React Navigation"
+  platform: "both"
+  type: "article"
+  description: "Configure deep links and universal links across iOS, Android, and web routes."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - deep-linking
+    - routing
+    - navigation
+- id: "expo-router-notation"
+  name: "Expo Router Notation"
+  url: "https://docs.expo.dev/router/basics/notation/"
+  category: "Navigation"
+  subcategory: "Expo Router"
+  platform: "expo"
+  type: "article"
+  description: "File naming and route conventions for Expo Router in large production apps."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - expo-router
+    - file-based-routing
+    - docs
+- id: "expo-router-typed-routes"
+  name: "Expo Router Typed Routes"
+  url: "https://docs.expo.dev/router/reference/typed-routes/"
+  category: "Navigation"
+  subcategory: "Expo Router"
+  platform: "expo"
+  type: "article"
+  description: "End-to-end type-safe route navigation patterns for Expo Router projects."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - types
+    - expo-router
+    - navigation
+- id: "expo-linking-overview"
+  name: "Expo Linking Overview"
+  url: "https://docs.expo.dev/linking/overview/"
+  category: "Navigation"
+  subcategory: "Expo Router"
+  platform: "expo"
+  type: "article"
+  description: "Deep linking and URL handling for Expo apps across mobile and web targets."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - linking
+    - deep-linking
+    - expo
+- id: "tanstack-query-react-native"
+  name: "TanStack Query for React Native"
+  url: "https://tanstack.com/query/latest/docs/framework/react/react-native"
+  category: "State & Data"
+  subcategory: "Server State & Caching"
+  platform: "both"
+  type: "article"
+  description: "Official guidance for using TanStack Query in React Native and Expo apps."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - data-fetching
+    - caching
+    - tanstack
+- id: "tanstack-query-persist-client"
+  name: "TanStack Query Persist Client"
+  url: "https://tanstack.com/query/latest/docs/framework/react/plugins/persistQueryClient"
+  category: "State & Data"
+  subcategory: "Server State & Caching"
+  platform: "both"
+  type: "article"
+  description: "Persist query cache to storage for offline and fast startup experiences."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - offline
+    - cache
+    - tanstack
+- id: "zustand-introduction"
+  name: "Zustand Docs"
+  url: "https://github.com/pmndrs/zustand"
+  category: "State & Data"
+  subcategory: "Client State"
+  platform: "both"
+  type: "article"
+  description: "Lightweight state management with minimal boilerplate and good RN ergonomics."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - state-management
+    - zustand
+    - lightweight
+- id: "jotai-docs"
+  name: "Jotai Docs"
+  url: "https://github.com/pmndrs/jotai"
+  category: "State & Data"
+  subcategory: "Client State"
+  platform: "both"
+  type: "article"
+  description: "Atomic state model that scales from simple screens to complex app state graphs."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - state-management
+    - jotai
+    - atoms
+- id: "redux-toolkit-quick-start"
+  name: "Redux Toolkit Quick Start"
+  url: "https://github.com/reduxjs/redux-toolkit"
+  category: "State & Data"
+  subcategory: "Client State"
+  platform: "both"
+  type: "article"
+  description: "Modern Redux defaults with safer patterns and reduced setup complexity."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - redux
+    - state-management
+    - rtk
+- id: "react-native-mmkv"
+  name: "React Native MMKV"
+  url: "https://github.com/mrousavy/react-native-mmkv"
+  category: "State & Data"
+  subcategory: "Local Storage & Persistence"
+  platform: "react-native"
+  type: "library"
+  description: "High-performance key-value storage used for persistence and local caching."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - storage
+    - performance
+    - persistence
+- id: "nativewind-docs"
+  name: "NativeWind"
+  url: "https://github.com/nativewind/nativewind"
+  category: "UI & Styling"
+  subcategory: "Styling & Theming"
+  platform: "both"
+  type: "library"
+  description: "Tailwind-style utility classes adapted for React Native and Expo components."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - styling
+    - tailwind
+    - ui
+- id: "tamagui-introduction"
+  name: "Tamagui"
+  url: "https://github.com/tamagui/tamagui"
+  category: "UI & Styling"
+  subcategory: "Styling & Theming"
+  platform: "both"
+  type: "library"
+  description: "High-performance UI kit and compiler for shared React Native and web design systems."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - design-system
+    - cross-platform
+    - ui
+- id: "react-native-paper"
+  name: "React Native Paper"
+  url: "https://github.com/callstack/react-native-paper"
+  category: "UI & Styling"
+  subcategory: "Component Libraries"
+  platform: "both"
+  type: "library"
+  description: "Material Design component library with strong accessibility and theming support."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - components
+    - material
+    - theming
+- id: "shopify-restyle"
+  name: "Shopify Restyle"
+  url: "https://github.com/shopify/restyle"
+  category: "UI & Styling"
+  subcategory: "Styling & Theming"
+  platform: "both"
+  type: "library"
+  description: "Type-safe design system primitives for building scalable React Native interfaces."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - design-system
+    - typescript
+    - ui
+- id: "gluestack-ui-intro"
+  name: "Gluestack UI Introduction"
+  url: "https://gluestack.io/ui/docs/home/overview/introduction"
+  category: "UI & Styling"
+  subcategory: "Component Libraries"
+  platform: "both"
+  type: "article"
+  description: "Cross-platform UI primitives and styled components for mobile and web products."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: null
+  maintained: "yes"
+  tags:
+    - ui-kit
+    - components
+    - cross-platform
+- id: "dripsy"
+  name: "Dripsy"
+  url: "https://github.com/nandorojo/dripsy"
+  category: "UI & Styling"
+  subcategory: "Styling & Theming"
+  platform: "both"
+  type: "library"
+  description: "Theme-driven responsive styling library tailored for React Native apps."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - theming
+    - styling
+    - responsive
+- id: "react-hook-form-get-started"
+  name: "React Hook Form"
+  url: "https://github.com/react-hook-form/react-hook-form"
+  category: "Forms & Validation"
+  subcategory: "Form Libraries"
+  platform: "both"
+  type: "library"
+  description: "Efficient form state management with minimal rerenders and strong TypeScript support."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - forms
+    - validation
+    - performance
+- id: "formik-overview"
+  name: "Formik"
+  url: "https://github.com/jaredpalmer/formik"
+  category: "Forms & Validation"
+  subcategory: "Form Libraries"
+  platform: "both"
+  type: "library"
+  description: "Popular form abstraction for predictable field handling and validation workflows."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - forms
+    - formik
+    - validation
+- id: "zod-docs"
+  name: "Zod Documentation"
+  url: "https://zod.dev/"
+  category: "Forms & Validation"
+  subcategory: "Schema Validation"
+  platform: "both"
+  type: "article"
+  description: "TypeScript-first schema validation used widely with forms and API contracts."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - validation
+    - types
+    - schema
+- id: "yup-repository"
+  name: "Yup Repository"
+  url: "https://github.com/jquense/yup"
+  category: "Forms & Validation"
+  subcategory: "Schema Validation"
+  platform: "both"
+  type: "library"
+  description: "Mature object schema validator commonly used with form libraries in RN projects."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - validation
+    - schema
+    - forms
+- id: "valibot-docs"
+  name: "Valibot Docs"
+  url: "https://valibot.dev/"
+  category: "Forms & Validation"
+  subcategory: "Schema Validation"
+  platform: "both"
+  type: "article"
+  description: "Modular, tree-shakeable schema validator suited for bundle-size sensitive apps."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - validation
+    - bundle-size
+    - schema
+- id: "tanstack-form-overview"
+  name: "TanStack Form"
+  url: "https://github.com/tanstack/form"
+  category: "Forms & Validation"
+  subcategory: "Form Libraries"
+  platform: "both"
+  type: "library"
+  description: "Modern form state toolkit with strong composability and predictable data flow."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - forms
+    - tanstack
+    - state
+- id: "jest-react-native-tutorial"
+  name: "Jest React Native Tutorial"
+  url: "https://jestjs.io/docs/tutorial-react-native"
+  category: "Testing & Quality"
+  subcategory: "Unit & Component Testing"
+  platform: "react-native"
+  type: "article"
+  description: "Official Jest guide for unit and snapshot testing React Native components."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - testing
+    - jest
+    - unit-test
+- id: "react-native-testing-library"
+  name: "React Native Testing Library"
+  url: "https://callstack.github.io/react-native-testing-library/"
+  category: "Testing & Quality"
+  subcategory: "Unit & Component Testing"
+  platform: "react-native"
+  type: "library"
+  description: "User-centric testing utilities aligned with React Testing Library best practices."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - testing
+    - rntl
+    - component-test
+- id: "detox-docs"
+  name: "Detox Docs"
+  url: "https://wix.github.io/Detox/"
+  category: "Testing & Quality"
+  subcategory: "E2E Testing"
+  platform: "react-native"
+  type: "tool"
+  description: "Gray-box end-to-end testing framework for reliable mobile test automation."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - e2e
+    - automation
+    - detox
+- id: "maestro-docs"
+  name: "Maestro Docs"
+  url: "https://maestro.mobile.dev/"
+  category: "Testing & Quality"
+  subcategory: "E2E Testing"
+  platform: "both"
+  type: "tool"
+  description: "YAML-driven mobile UI testing tool focused on quick setup and CI reliability."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - e2e
+    - mobile
+    - ci
+- id: "expo-unit-testing-guide"
+  name: "Expo Unit Testing Guide"
+  url: "https://docs.expo.dev/develop/unit-testing/"
+  category: "Testing & Quality"
+  subcategory: "Unit & Component Testing"
+  platform: "expo"
+  type: "article"
+  description: "Expo-specific testing setup recommendations for Jest and React Native test stacks."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - expo
+    - testing
+    - jest
+- id: "expo-e2e-workflows-example"
+  name: "Expo E2E Workflows Example"
+  url: "https://docs.expo.dev/eas/workflows/examples/e2e-tests/"
+  category: "Testing & Quality"
+  subcategory: "CI Workflows"
+  platform: "expo"
+  type: "article"
+  description: "Practical E2E CI examples using EAS Workflows for mobile quality gates."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - e2e
+    - workflows
+    - expo
+- id: "flashlist-docs"
+  name: "FlashList"
+  url: "https://github.com/shopify/flash-list"
+  category: "Performance & Profiling"
+  subcategory: "Lists & Rendering"
+  platform: "react-native"
+  type: "library"
+  description: "High-performance list virtualization library for large and complex mobile lists."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - lists
+    - virtualization
+    - performance
+- id: "legend-list"
+  name: "Legend List"
+  url: "https://github.com/LegendApp/legend-list"
+  category: "Performance & Profiling"
+  subcategory: "Lists & Rendering"
+  platform: "react-native"
+  type: "library"
+  description: "High-performance React Native list component designed for smooth scrolling at scale."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - lists
+    - virtualization
+    - performance
+- id: "react-native-performance-overview"
+  name: "React Native Performance Overview"
+  url: "https://reactnative.dev/docs/performance"
+  category: "Performance & Profiling"
+  subcategory: "Runtime & Engine"
+  platform: "react-native"
+  type: "article"
+  description: "Official guidance for measuring and improving JS, UI, and memory performance."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - performance
+    - profiling
+    - official
+- id: "react-native-hermes"
+  name: "Hermes Engine Docs"
+  url: "https://reactnative.dev/docs/hermes"
+  category: "Performance & Profiling"
+  subcategory: "Runtime & Engine"
+  platform: "react-native"
+  type: "article"
+  description: "Configure Hermes JavaScript engine for startup, memory, and runtime improvements."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - hermes
+    - runtime
+    - performance
+- id: "reanimated-docs"
+  name: "React Native Reanimated"
+  url: "https://github.com/software-mansion/react-native-reanimated"
+  category: "Animation & Gestures"
+  subcategory: "Animation Libraries"
+  platform: "react-native"
+  type: "library"
+  description: "Core animation library for React Native with performant UI-thread driven motion APIs."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - animation
+    - performance
+    - reanimated
+- id: "expo-analyzing-bundles"
+  name: "Expo Bundle Analysis Guide"
+  url: "https://docs.expo.dev/guides/analyzing-bundles/"
+  category: "Performance & Profiling"
+  subcategory: "Bundle Analysis"
+  platform: "expo"
+  type: "article"
+  description: "Analyze JavaScript bundle contents and size regressions in Expo applications."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - bundle
+    - size
+    - analysis
+- id: "react-native-skia"
+  name: "React Native Skia"
+  url: "https://github.com/shopify/react-native-skia"
+  category: "Animation & Gestures"
+  subcategory: "Graphics & Rendering"
+  platform: "react-native"
+  type: "library"
+  description: "GPU-accelerated 2D rendering toolkit for performant graphics and custom UI."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - graphics
+    - performance
+    - skia
+- id: "eas-build-introduction"
+  name: "EAS Build Introduction"
+  url: "https://docs.expo.dev/build/introduction/"
+  category: "Build & Release"
+  subcategory: "EAS Pipeline"
+  platform: "expo"
+  type: "article"
+  description: "Official build service overview for cloud and local Expo app builds."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - build
+    - eas
+    - release
+- id: "eas-submit-introduction"
+  name: "EAS Submit Introduction"
+  url: "https://docs.expo.dev/submit/introduction/"
+  category: "Build & Release"
+  subcategory: "EAS Pipeline"
+  platform: "expo"
+  type: "article"
+  description: "Automate store submission workflows for iOS and Android with EAS Submit."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - submit
+    - stores
+    - eas
+- id: "eas-update-introduction"
+  name: "EAS Update Introduction"
+  url: "https://docs.expo.dev/eas-update/introduction/"
+  category: "Build & Release"
+  subcategory: "EAS Pipeline"
+  platform: "expo"
+  type: "article"
+  description: "Over-the-air updates for Expo apps with channels, rollouts, and runtime versioning."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - ota
+    - updates
+    - eas
+- id: "eas-metadata-introduction"
+  name: "EAS Metadata Introduction"
+  url: "https://docs.expo.dev/eas/metadata/getting-started/"
+  category: "Build & Release"
+  subcategory: "EAS Pipeline"
+  platform: "expo"
+  type: "article"
+  description: "Manage app store metadata as code to reduce release friction and manual mistakes."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - metadata
+    - release
+    - automation
+- id: "fastlane-react-native-guide"
+  name: "Fastlane React Native Guide"
+  url: "https://docs.fastlane.tools/getting-started/cross-platform/react-native/"
+  category: "Build & Release"
+  subcategory: "Release Automation"
+  platform: "react-native"
+  type: "article"
+  description: "Established automation toolkit for signing, screenshots, builds, and store delivery."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - fastlane
+    - release
+    - automation
+- id: "sentry-react-native-docs"
+  name: "Sentry React Native Docs"
+  url: "https://docs.sentry.io/platforms/react-native/"
+  category: "Analytics & Monitoring"
+  subcategory: "Crash Reporting"
+  platform: "react-native"
+  type: "service"
+  description: "Crash reporting, tracing, and release health monitoring for RN production apps."
+  last_verified: "2026-03-04"
+  source_kind: "commercial"
+  license: null
+  maintained: "yes"
+  tags:
+    - monitoring
+    - crash-reporting
+    - observability
+- id: "posthog-react-native-docs"
+  name: "PostHog React Native Docs"
+  url: "https://posthog.com/docs/libraries/react-native"
+  category: "Analytics & Monitoring"
+  subcategory: "Analytics & Attribution"
+  platform: "react-native"
+  type: "article"
+  description: "Official PostHog guide for product analytics and feature flags in React Native apps."
+  last_verified: "2026-03-04"
+  source_kind: "commercial"
+  license: null
+  maintained: "yes"
+  tags:
+    - analytics
+    - product-analytics
+    - feature-flags
+- id: "mixpanel-react-native"
+  name: "Mixpanel React Native"
+  url: "https://github.com/mixpanel/mixpanel-react-native"
+  category: "Analytics & Monitoring"
+  subcategory: "Analytics & Attribution"
+  platform: "react-native"
+  type: "library"
+  description: "Open-source Mixpanel SDK for event tracking and analytics in React Native applications."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "Apache-2.0"
+  maintained: "yes"
+  tags:
+    - analytics
+    - mixpanel
+    - sdk
+- id: "expo-modules-overview"
+  name: "Expo Modules Overview"
+  url: "https://docs.expo.dev/modules/overview/"
+  category: "Platform & Native Architecture"
+  subcategory: "Expo Modules & Config"
+  platform: "expo"
+  type: "article"
+  description: "Build native modules that integrate cleanly with Expo and React Native projects."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - native-modules
+    - expo
+    - architecture
+- id: "expo-config-plugins-introduction"
+  name: "Expo Config Plugins Introduction"
+  url: "https://docs.expo.dev/config-plugins/introduction/"
+  category: "Platform & Native Architecture"
+  subcategory: "Expo Modules & Config"
+  platform: "expo"
+  type: "article"
+  description: "Automate native project configuration for repeatable setup across environments."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - config-plugins
+    - native
+    - automation
+- id: "expo-development-builds"
+  name: "Expo Development Builds"
+  url: "https://docs.expo.dev/develop/development-builds/introduction/"
+  category: "Platform & Native Architecture"
+  subcategory: "Development Builds"
+  platform: "expo"
+  type: "article"
+  description: "Use custom dev clients for native dependencies beyond Expo Go limitations."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - dev-client
+    - native
+    - expo
+- id: "react-native-new-architecture-overview"
+  name: "React Native New Architecture Overview"
+  url: "https://reactnative.dev/architecture/landing-page"
+  category: "Platform & Native Architecture"
+  subcategory: "React Native Architecture"
+  platform: "react-native"
+  type: "article"
+  description: "Official overview of React Native New Architecture concepts and migration direction."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - new-architecture
+    - migration
+    - react-native
+- id: "react-native-turbo-native-modules"
+  name: "React Native Turbo Native Modules"
+  url: "https://reactnative.dev/docs/turbo-native-modules-introduction"
+  category: "Platform & Native Architecture"
+  subcategory: "React Native Architecture"
+  platform: "react-native"
+  type: "article"
+  description: "New Architecture approach for type-safe and faster native module integrations."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - turbo-modules
+    - new-architecture
+    - native
+- id: "react-native-permissions"
+  name: "React Native Permissions"
+  url: "https://github.com/zoontek/react-native-permissions"
+  category: "Device APIs"
+  subcategory: "Device Utilities"
+  platform: "react-native"
+  type: "library"
+  description: "Standardized permission handling for iOS and Android device capabilities."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - permissions
+    - device-apis
+    - native
+- id: "expo-tutorial"
+  name: "Expo Tutorial"
+  url: "https://docs.expo.dev/tutorial/introduction/"
+  category: "Learning & Community"
+  subcategory: "Tutorials & Feeds"
+  platform: "expo"
+  type: "article"
+  description: "Official end-to-end tutorial for building and shipping your first Expo app."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - learning
+    - tutorial
+    - expo
+- id: "expo-blog"
+  name: "Expo Blog"
+  url: "https://expo.dev/blog"
+  category: "Learning & Community"
+  subcategory: "News & Updates"
+  platform: "expo"
+  type: "article"
+  description: "Product updates, release breakdowns, and practical workflows from Expo team."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - blog
+    - release-notes
+    - learning
+- id: "react-native-blog"
+  name: "React Native Blog"
+  url: "https://reactnative.dev/blog"
+  category: "Learning & Community"
+  subcategory: "News & Updates"
+  platform: "react-native"
+  type: "article"
+  description: "Official release posts and architecture updates directly from maintainers."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - blog
+    - official
+    - react-native
+- id: "appjs-conference-youtube"
+  name: "App.js Conference"
+  url: "https://appjs.co/"
+  category: "Learning & Community"
+  subcategory: "Tutorials & Feeds"
+  platform: "both"
+  type: "video"
+  description: "High-signal talks from practitioners building large Expo and RN applications."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: null
+  maintained: "yes"
+  tags:
+    - talks
+    - conference
+    - video
+- id: "react-native-radio"
+  name: "React Native Radio"
+  url: "https://reactnativeradio.com/"
+  category: "Learning & Community"
+  subcategory: "News & Updates"
+  platform: "react-native"
+  type: "article"
+  description: "Long-running podcast and articles featuring advanced mobile engineering topics."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: null
+  maintained: "yes"
+  tags:
+    - podcast
+    - community
+    - learning
+- id: "this-week-in-react"
+  name: "This Week in React"
+  url: "https://thisweekinreact.com/"
+  category: "Learning & Community"
+  subcategory: "News & Updates"
+  platform: "both"
+  type: "article"
+  description: "Curated weekly digest surfacing important React, React Native, and ecosystem news."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: null
+  maintained: "yes"
+  tags:
+    - newsletter
+    - curation
+    - updates
+- id: "expo-supabase-starter"
+  name: "Expo Supabase Starter"
+  url: "https://github.com/flemingvincent/expo-supabase-starter"
+  category: "Starter Kits & Templates"
+  subcategory: "Community Templates"
+  platform: "expo"
+  type: "template"
+  description: "Expo + Supabase starter with auth and production-ready mobile architecture patterns."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - starter
+    - supabase
+    - expo
+- id: "crispy-expo-router"
+  name: "Crispy (Expo Router Components)"
+  url: "https://github.com/EvanBacon/crispy"
+  category: "Starter Kits & Templates"
+  subcategory: "Community Templates"
+  platform: "expo"
+  type: "repo"
+  description: "Reusable Expo Router-first component set that accelerates new app shell development."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: null
+  maintained: "yes"
+  tags:
+    - expo-router
+    - components
+    - starter
+- id: "react-native-template-obytes"
+  name: "React Native Template Obytes"
+  url: "https://github.com/obytes/react-native-template-obytes"
+  category: "Starter Kits & Templates"
+  subcategory: "Community Templates"
+  platform: "both"
+  type: "template"
+  description: "Production-grade Expo template with TypeScript, EAS, router, and quality tooling baked in."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - template
+    - expo
+    - production
+- id: "react-native-firebase-docs"
+  name: "React Native Firebase Docs"
+  url: "https://rnfirebase.io/"
+  category: "Backend & Auth"
+  subcategory: "BaaS Platforms"
+  platform: "react-native"
+  type: "article"
+  description: "Modular Firebase integration docs for analytics, auth, messaging, and more in React Native."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - firebase
+    - backend
+    - react-native
+- id: "supabase-expo-react-native-tutorial"
+  name: "Supabase Expo React Native Tutorial"
+  url: "https://supabase.com/docs/guides/getting-started/tutorials/with-expo-react-native"
+  category: "Backend & Auth"
+  subcategory: "BaaS Platforms"
+  platform: "both"
+  type: "article"
+  description: "Official Supabase tutorial for auth, database access, and realtime patterns in Expo apps."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - supabase
+    - backend
+    - database
+- id: "expo-image-sdk-docs"
+  name: "Expo Image SDK Docs"
+  url: "https://docs.expo.dev/versions/latest/sdk/image/"
+  category: "Media & Camera"
+  subcategory: "Image & Video"
+  platform: "expo"
+  type: "article"
+  description: "Official Expo Image module docs for rendering, caching, and progressive media loading."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - expo-image
+    - media
+    - performance
+- id: "expo-ui-sdk-docs"
+  name: "Expo UI SDK Docs"
+  url: "https://docs.expo.dev/versions/latest/sdk/ui/"
+  category: "UI & Styling"
+  subcategory: "Expo UI"
+  platform: "expo"
+  type: "article"
+  description: "Official Expo UI docs for cross-platform native UI primitives and theming APIs."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - expo-ui
+    - ui
+    - official
+- id: "expo-video-sdk-docs"
+  name: "Expo Video SDK Docs"
+  url: "https://docs.expo.dev/versions/latest/sdk/video/"
+  category: "Media & Camera"
+  subcategory: "Image & Video"
+  platform: "expo"
+  type: "article"
+  description: "Official Expo Video module docs for playback, controls, and streaming integration."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - expo-video
+    - media
+    - playback
+- id: "heroui-native"
+  name: "HeroUI Native"
+  url: "https://github.com/heroui-inc/heroui-native"
+  category: "UI & Styling"
+  subcategory: "Component Libraries"
+  platform: "react-native"
+  type: "library"
+  description: "React Native UI kit from the HeroUI team, built with Uniwind-based styling patterns."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - ui-kit
+    - components
+    - uniwind
+- id: "gluestack-ui-repo"
+  name: "Gluestack UI Repository"
+  url: "https://github.com/gluestack/gluestack-ui"
+  category: "UI & Styling"
+  subcategory: "Component Libraries"
+  platform: "both"
+  type: "repo"
+  description: "Source repository for gluestack UI components and patterns for React and React Native."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: null
+  maintained: "yes"
+  tags:
+    - gluestack
+    - ui-kit
+    - nativewind
+- id: "react-native-elements"
+  name: "React Native Elements"
+  url: "https://github.com/react-native-elements/react-native-elements"
+  category: "UI & Styling"
+  subcategory: "Component Libraries"
+  platform: "both"
+  type: "library"
+  description: "Mature cross-platform UI toolkit with broad component coverage for React Native teams."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - ui-kit
+    - components
+    - react-native
+- id: "react-native-reusables"
+  name: "React Native Reusables"
+  url: "https://github.com/founded-labs/react-native-reusables"
+  category: "UI & Styling"
+  subcategory: "Component Libraries"
+  platform: "react-native"
+  type: "library"
+  description: "Shadcn-inspired React Native components using Uniwind and NativeWind conventions."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - components
+    - nativewind
+    - uniwind
+- id: "react-native-unistyles"
+  name: "React Native Unistyles"
+  url: "https://github.com/jpudysz/react-native-unistyles"
+  category: "UI & Styling"
+  subcategory: "Styling & Theming"
+  platform: "react-native"
+  type: "library"
+  description: "Styling system that extends React Native StyleSheet for dynamic themes and variants."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: null
+  maintained: "yes"
+  tags:
+    - styling
+    - theming
+    - performance
+- id: "uniwind"
+  name: "Uniwind"
+  url: "https://github.com/uni-stack/uniwind"
+  category: "UI & Styling"
+  subcategory: "Styling & Theming"
+  platform: "react-native"
+  type: "library"
+  description: "Tailwind bindings for React Native from the Unistyles ecosystem, focused on speed."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - tailwind
+    - styling
+    - unistyles
+- id: "sonner-native-toasts"
+  name: "Sonner Native Toasts"
+  url: "https://github.com/gunnartorfis/sonner-native-toasts"
+  category: "UX Libraries"
+  subcategory: "Toasts & Alerts"
+  platform: "react-native"
+  type: "library"
+  description: "Opinionated toast component for React Native inspired by the Sonner web API."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - toast
+    - notifications
+    - ui
+- id: "lucide-react-native"
+  name: "Lucide React Native"
+  url: "https://github.com/lucide-icons/lucide"
+  category: "UI & Styling"
+  subcategory: "Icons & SVG"
+  platform: "react-native"
+  type: "library"
+  description: "Beautiful, consistent icon set with tree-shakeable React Native bindings and 1500+ icons."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "ISC"
+  maintained: "yes"
+  tags:
+    - icons
+    - ui
+    - components
+- id: "react-native-worklets-docs"
+  name: "React Native Worklets Docs"
+  url: "https://docs.swmansion.com/react-native-worklets"
+  category: "Animation & Gestures"
+  subcategory: "Graphics & Rendering"
+  platform: "react-native"
+  type: "article"
+  description: "Official worklets documentation for off-main-thread execution in React Native."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - worklets
+    - performance
+    - threading
+- id: "revenuecat-react-native-installation"
+  name: "RevenueCat React Native Installation"
+  url: "https://www.revenuecat.com/docs/getting-started/installation/reactnative"
+  category: "Monetization"
+  subcategory: "In-App Purchases & Subscriptions"
+  platform: "both"
+  type: "article"
+  description: "Official RevenueCat React Native setup guide for in-app purchases and subscriptions."
+  last_verified: "2026-03-04"
+  source_kind: "commercial"
+  license: null
+  maintained: "yes"
+  tags:
+    - iap
+    - subscriptions
+    - monetization
+- id: "adapty-react-native-sdk-installation"
+  name: "Adapty React Native SDK Installation"
+  url: "https://adapty.io/docs/sdk-installation-reactnative"
+  category: "Monetization"
+  subcategory: "In-App Purchases & Subscriptions"
+  platform: "both"
+  type: "article"
+  description: "Official Adapty setup docs for subscriptions, paywalls, and in-app purchase flows."
+  last_verified: "2026-03-04"
+  source_kind: "commercial"
+  license: null
+  maintained: "yes"
+  tags:
+    - subscriptions
+    - iap
+    - adapty
+- id: "react-native-iap"
+  name: "React Native IAP"
+  url: "https://github.com/dooboolab-community/react-native-iap"
+  category: "Monetization"
+  subcategory: "In-App Purchases & Subscriptions"
+  platform: "both"
+  type: "library"
+  description: "Cross-platform in-app purchase library for iOS and Android with receipt validation support."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - iap
+    - purchases
+    - monetization
+- id: "appsflyer-react-native-plugin"
+  name: "AppsFlyer React Native Plugin"
+  url: "https://github.com/AppsFlyerSDK/appsflyer-react-native-plugin"
+  category: "Analytics & Monitoring"
+  subcategory: "Analytics & Attribution"
+  platform: "react-native"
+  type: "service"
+  description: "Official AppsFlyer plugin for install attribution and mobile marketing analytics."
+  last_verified: "2026-03-04"
+  source_kind: "commercial"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - analytics
+    - attribution
+    - marketing
+- id: "adjust-react-native-sdk-docs"
+  name: "Adjust React Native SDK Docs"
+  url: "https://dev.adjust.com/en/sdk/react-native/"
+  category: "Analytics & Monitoring"
+  subcategory: "Analytics & Attribution"
+  platform: "react-native"
+  type: "article"
+  description: "Official Adjust React Native SDK docs for attribution, deep links, and lifecycle tracking."
+  last_verified: "2026-03-04"
+  source_kind: "commercial"
+  license: null
+  maintained: "yes"
+  tags:
+    - analytics
+    - attribution
+    - adjust
+- id: "expo-dev-client-sdk-docs"
+  name: "Expo Dev Client SDK Docs"
+  url: "https://docs.expo.dev/versions/latest/sdk/dev-client/"
+  category: "Platform & Native Architecture"
+  subcategory: "Development Builds"
+  platform: "expo"
+  type: "article"
+  description: "Official guide for custom development clients when Expo Go is not enough."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - dev-client
+    - native
+    - expo
+- id: "react-native-keyboard-controller"
+  name: "React Native Keyboard Controller"
+  url: "https://github.com/kirillzyusko/react-native-keyboard-controller"
+  category: "Device APIs"
+  subcategory: "Device Utilities"
+  platform: "react-native"
+  type: "library"
+  description: "Cross-platform keyboard handling and animations for smoother input-heavy screens."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - keyboard
+    - input
+    - animations
+- id: "react-native-share"
+  name: "React Native Share"
+  url: "https://github.com/react-native-share/react-native-share"
+  category: "Device APIs"
+  subcategory: "Device Utilities"
+  platform: "react-native"
+  type: "library"
+  description: "Native share sheet integration for sending text, files, and media to other apps."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - share
+    - native
+    - integration
+- id: "nitro-modules"
+  name: "Nitro Modules"
+  url: "https://github.com/mrousavy/nitro"
+  category: "Platform & Native Architecture"
+  subcategory: "React Native Architecture"
+  platform: "react-native"
+  type: "tool"
+  description: "Tooling for building very fast C++, Swift, and Kotlin modules with JSI bindings."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - native-modules
+    - jsi
+    - performance
+- id: "expensify-app"
+  name: "Expensify App"
+  url: "https://github.com/Expensify/App"
+  category: "Learning & Community"
+  subcategory: "Production Apps"
+  platform: "both"
+  type: "repo"
+  description: "Large production React Native app with real-world architecture and collaboration flows."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - reference-app
+    - architecture
+    - production
+- id: "kraken-wallet"
+  name: "Kraken Wallet"
+  url: "https://github.com/krakenfx/wallet"
+  category: "Learning & Community"
+  subcategory: "Production Apps"
+  platform: "react-native"
+  type: "repo"
+  description: "Open-source self-custody wallet showing production mobile crypto app patterns."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - reference-app
+    - wallet
+    - production
+- id: "react-native-apps-curated"
+  name: "React Native Apps (Curated Open Source List)"
+  url: "https://github.com/ReactNativeNews/React-Native-Apps"
+  category: "Learning & Community"
+  subcategory: "Curated Lists"
+  platform: "react-native"
+  type: "repo"
+  description: "Curated collection of open-source React Native apps for architecture and UI inspiration."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: null
+  maintained: "yes"
+  tags:
+    - reference-apps
+    - curation
+    - react-native
+- id: "bluesky-social-app"
+  name: "Bluesky Social App"
+  url: "https://github.com/bluesky-social/social-app"
+  category: "Learning & Community"
+  subcategory: "Production Apps"
+  platform: "both"
+  type: "repo"
+  description: "Large-scale social application codebase for Web, iOS, and Android from Bluesky."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - reference-app
+    - social
+    - production
+- id: "artsy-eigen"
+  name: "Artsy Eigen"
+  url: "https://github.com/artsy/eigen"
+  category: "Learning & Community"
+  subcategory: "Production Apps"
+  platform: "react-native"
+  type: "repo"
+  description: "Artsy mobile application codebase, useful for studying mature React Native patterns."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - reference-app
+    - architecture
+    - react-native
+- id: "uniswap-interface"
+  name: "Uniswap Interface"
+  url: "https://github.com/Uniswap/interface"
+  category: "Learning & Community"
+  subcategory: "Production Apps"
+  platform: "both"
+  type: "repo"
+  description: "Open-source production interface for Uniswap, useful for large-scale React app architecture study."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "GPL-3.0"
+  maintained: "yes"
+  tags:
+    - reference-app
+    - defi
+    - production
+- id: "jondot-awesome-react-native"
+  name: "Awesome React Native"
+  url: "https://github.com/jondot/awesome-react-native"
+  category: "Learning & Community"
+  subcategory: "Curated Lists"
+  platform: "react-native"
+  type: "repo"
+  description: "Long-standing curated list of React Native tools, components, and learning materials."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: null
+  maintained: "unknown"
+  tags:
+    - awesome-list
+    - curation
+    - react-native
+- id: "github-topic-react-native"
+  name: "GitHub React Native Topic"
+  url: "https://github.com/topics/react-native"
+  category: "Learning & Community"
+  subcategory: "Tutorials & Feeds"
+  platform: "react-native"
+  type: "article"
+  description: "Discover trending and popular React Native repositories by GitHub topic."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: null
+  maintained: "yes"
+  tags:
+    - discovery
+    - github
+    - ecosystem
+- id: "appwrite-react-native-quickstart"
+  name: "Appwrite React Native Quick Start"
+  url: "https://appwrite.io/docs/quick-starts/react-native"
+  category: "Backend & Auth"
+  subcategory: "BaaS Platforms"
+  platform: "both"
+  type: "article"
+  description: "Official quick start for integrating Appwrite backend services in React Native apps."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - backend
+    - appwrite
+    - quickstart
+- id: "appwrite-platform"
+  name: "Appwrite Platform"
+  url: "https://github.com/appwrite/appwrite"
+  category: "Backend & Auth"
+  subcategory: "BaaS Platforms"
+  platform: "both"
+  type: "service"
+  description: "Open-source backend platform with auth, database, storage, and functions for mobile apps."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "BSD-3-Clause"
+  maintained: "yes"
+  tags:
+    - backend
+    - database
+    - baas
+- id: "enaqx-awesome-react"
+  name: "Awesome React"
+  url: "https://github.com/enaqx/awesome-react"
+  category: "Learning & Community"
+  subcategory: "Curated Lists"
+  platform: "both"
+  type: "repo"
+  description: "Broad React ecosystem curation for discovering tools transferable to React Native stacks."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: null
+  maintained: "yes"
+  tags:
+    - awesome-list
+    - react
+    - curation
+- id: "sindresorhus-awesome"
+  name: "Awesome (Sindre Sorhus)"
+  url: "https://github.com/sindresorhus/awesome"
+  category: "Learning & Community"
+  subcategory: "Curated Lists"
+  platform: "both"
+  type: "repo"
+  description: "Canonical awesome-list repository and curation standard reference for quality list design."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "CC0-1.0"
+  maintained: "yes"
+  tags:
+    - awesome-list
+    - standards
+    - curation
+- id: "expo-doctor-docs"
+  name: "Expo Doctor Docs"
+  url: "https://docs.expo.dev/develop/tools/#expo-doctor"
+  category: "Docs & Upgrade Guides"
+  subcategory: "Upgrade Tools"
+  platform: "expo"
+  type: "article"
+  description: "Official Expo Doctor checks for dependency, config, and SDK compatibility issues."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - expo
+    - doctor
+    - tooling
+- id: "expo-sqlite-sdk-docs"
+  name: "Expo SQLite SDK Docs"
+  url: "https://docs.expo.dev/versions/latest/sdk/sqlite/"
+  category: "State & Data"
+  subcategory: "Local Storage & Persistence"
+  platform: "expo"
+  type: "article"
+  description: "Official SQLite module docs for local relational storage, migrations, and offline data in Expo."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - sqlite
+    - persistence
+    - offline
+- id: "expo-securestore-sdk-docs"
+  name: "Expo SecureStore SDK Docs"
+  url: "https://docs.expo.dev/versions/latest/sdk/securestore/"
+  category: "State & Data"
+  subcategory: "Local Storage & Persistence"
+  platform: "expo"
+  type: "article"
+  description: "Official SecureStore docs for encrypted key-value storage of tokens and sensitive app secrets."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - securestore
+    - storage
+    - security
+- id: "moti"
+  name: "Moti"
+  url: "https://github.com/nandorojo/moti"
+  category: "Animation & Gestures"
+  subcategory: "Animation Libraries"
+  platform: "react-native"
+  type: "library"
+  description: "Reanimated-powered animation library with simple APIs for entrance, exit, and gesture motion."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - animation
+    - reanimated
+    - ui
+- id: "react-native-bottom-sheet"
+  name: "React Native Bottom Sheet"
+  url: "https://github.com/gorhom/react-native-bottom-sheet"
+  category: "UX Libraries"
+  subcategory: "Sheets"
+  platform: "react-native"
+  type: "library"
+  description: "High-performance bottom sheet component with gestures, snapping, and keyboard support."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - bottom-sheet
+    - gestures
+    - ui
+- id: "react-native-true-sheet"
+  name: "React Native True Sheet"
+  url: "https://github.com/lodev09/react-native-true-sheet"
+  category: "UX Libraries"
+  subcategory: "Sheets"
+  platform: "react-native"
+  type: "library"
+  description: "Native-feel sheet component for iOS and Android with performant modal interactions."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - sheets
+    - modal
+    - ui
+- id: "react-error-boundary"
+  name: "React Error Boundary"
+  url: "https://github.com/bvaughn/react-error-boundary"
+  category: "UX Libraries"
+  subcategory: "Error Handling"
+  platform: "both"
+  type: "library"
+  description: "Reusable React error boundary helpers for safer fallback UI and runtime failure recovery."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - error-handling
+    - reliability
+    - react
+- id: "react-native-netinfo"
+  name: "React Native NetInfo"
+  url: "https://github.com/react-native-netinfo/react-native-netinfo"
+  category: "Device APIs"
+  subcategory: "Device Utilities"
+  platform: "react-native"
+  type: "library"
+  description: "Network state and reachability API for monitoring connectivity changes in React Native apps."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - connectivity
+    - network
+    - device-apis
+- id: "i18next-docs"
+  name: "i18next Docs"
+  url: "https://www.i18next.com/"
+  category: "Accessibility & i18n"
+  subcategory: "Localization"
+  platform: "both"
+  type: "article"
+  description: "Core i18next docs for translation management, interpolation, and locale detection."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - i18n
+    - localization
+    - translations
+- id: "react-i18next-docs"
+  name: "react-i18next Docs"
+  url: "https://react.i18next.com/"
+  category: "Accessibility & i18n"
+  subcategory: "Localization"
+  platform: "both"
+  type: "article"
+  description: "React bindings for i18next with hooks and providers for multilingual Expo/RN apps."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - i18n
+    - localization
+    - react
+- id: "lottie-react-native"
+  name: "Lottie React Native"
+  url: "https://github.com/lottie-react-native/lottie-react-native"
+  category: "Animation & Gestures"
+  subcategory: "Animation Libraries"
+  platform: "react-native"
+  type: "library"
+  description: "Render Lottie animations from Adobe After Effects in React Native applications."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "Apache-2.0"
+  maintained: "yes"
+  tags:
+    - animation
+    - lottie
+    - ui
+- id: "react-native-gesture-handler"
+  name: "React Native Gesture Handler"
+  url: "https://docs.swmansion.com/react-native-gesture-handler/"
+  category: "Animation & Gestures"
+  subcategory: "Gestures"
+  platform: "react-native"
+  type: "library"
+  description: "Declarative gesture API for React Native enabling smooth touch interactions and swipes."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - gestures
+    - touch
+    - interaction
+- id: "expo-authsession-sdk-docs"
+  name: "Expo AuthSession SDK Docs"
+  url: "https://docs.expo.dev/versions/latest/sdk/auth-session/"
+  category: "Backend & Auth"
+  subcategory: "Auth Providers & SDKs"
+  platform: "expo"
+  type: "article"
+  description: "Official Expo auth session docs for OAuth, OpenID Connect, and SSO integration flows."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - auth
+    - oauth
+    - expo
+- id: "clerk-expo-quickstart"
+  name: "Clerk Expo Quick Start"
+  url: "https://clerk.com/docs/quickstarts/expo"
+  category: "Backend & Auth"
+  subcategory: "Auth Providers & SDKs"
+  platform: "expo"
+  type: "article"
+  description: "Official Clerk setup guide for auth, user management, and sessions in Expo apps."
+  last_verified: "2026-03-04"
+  source_kind: "commercial"
+  license: null
+  maintained: "yes"
+  tags:
+    - auth
+    - clerk
+    - identity
+- id: "react-native-maps"
+  name: "React Native Maps"
+  url: "https://github.com/react-native-maps/react-native-maps"
+  category: "Device APIs"
+  subcategory: "Maps & Location"
+  platform: "react-native"
+  type: "library"
+  description: "Cross-platform map components for iOS and Android with markers, polygons, and overlays."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - maps
+    - location
+    - native
+- id: "expo-location-sdk-docs"
+  name: "Expo Location SDK Docs"
+  url: "https://docs.expo.dev/versions/latest/sdk/location/"
+  category: "Device APIs"
+  subcategory: "Maps & Location"
+  platform: "expo"
+  type: "article"
+  description: "Official Expo Location module for GPS, geofencing, and background location tracking."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - location
+    - gps
+    - expo
+- id: "expo-notifications-sdk-docs"
+  name: "Expo Notifications SDK Docs"
+  url: "https://docs.expo.dev/versions/latest/sdk/notifications/"
+  category: "Push Notifications"
+  subcategory: "Push Services"
+  platform: "expo"
+  type: "article"
+  description: "Official Expo push and local notification APIs with scheduling, channels, and handling."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - notifications
+    - push
+    - expo
+- id: "expo-camera-sdk-docs"
+  name: "Expo Camera SDK Docs"
+  url: "https://docs.expo.dev/versions/latest/sdk/camera/"
+  category: "Media & Camera"
+  subcategory: "Camera & Vision"
+  platform: "expo"
+  type: "article"
+  description: "Official Expo Camera module for photo and video capture with barcode scanning support."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - camera
+    - media
+    - expo
+- id: "react-native-vision-camera"
+  name: "React Native Vision Camera"
+  url: "https://github.com/mrousavy/react-native-vision-camera"
+  category: "Media & Camera"
+  subcategory: "Camera & Vision"
+  platform: "react-native"
+  type: "library"
+  description: "High-performance camera with frame processors, QR scanning, and video recording."
+  last_verified: "2026-03-04"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - camera
+    - vision
+    - performance
+- id: "react-native-accessibility-docs"
+  name: "React Native Accessibility Docs"
+  url: "https://reactnative.dev/docs/accessibility"
+  category: "Accessibility & i18n"
+  subcategory: "Accessibility"
+  platform: "react-native"
+  type: "article"
+  description: "Official React Native accessibility guide for screen readers, roles, and a11y practices."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - accessibility
+    - a11y
+    - docs
+- id: "expo-icons-guide"
+  name: "Expo Icons Guide"
+  url: "https://docs.expo.dev/guides/icons/"
+  category: "UI & Styling"
+  subcategory: "Icons & SVG"
+  platform: "expo"
+  type: "article"
+  description: "Official Expo guide for using vector icons, custom icon fonts, and icon image assets."
+  last_verified: "2026-03-04"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - icons
+    - ui
+    - expo
+- id: "onesignal-react-native-sdk"
+  name: "OneSignal React Native SDK"
+  url: "https://github.com/OneSignal/react-native-onesignal"
+  category: "Push Notifications"
+  subcategory: "Push Services"
+  platform: "react-native"
+  type: "library"
+  description: "Push notification and in-app messaging SDK for React Native with segmentation and A/B testing."
+  last_verified: "2026-03-06"
+  source_kind: "commercial"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - push-notifications
+    - messaging
+    - onesignal
+- id: "firebase-messaging-react-native"
+  name: "Firebase Cloud Messaging (React Native Firebase)"
+  url: "https://rnfirebase.io/messaging/usage"
+  category: "Push Notifications"
+  subcategory: "Push Services"
+  platform: "react-native"
+  type: "article"
+  description: "Official React Native Firebase guide for push notification delivery via FCM."
+  last_verified: "2026-03-06"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - push-notifications
+    - fcm
+    - firebase
+- id: "firebase-analytics-react-native"
+  name: "Firebase Analytics (React Native Firebase)"
+  url: "https://rnfirebase.io/analytics/usage"
+  category: "Analytics & Monitoring"
+  subcategory: "Analytics & Attribution"
+  platform: "react-native"
+  type: "article"
+  description: "Official React Native Firebase guide for event tracking and user analytics via Google Analytics."
+  last_verified: "2026-03-06"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - analytics
+    - firebase
+    - tracking
+- id: "firebase-crashlytics-react-native"
+  name: "Firebase Crashlytics (React Native Firebase)"
+  url: "https://rnfirebase.io/crashlytics/usage"
+  category: "Analytics & Monitoring"
+  subcategory: "Crash Reporting"
+  platform: "react-native"
+  type: "article"
+  description: "Official React Native Firebase guide for real-time crash reporting and stability monitoring."
+  last_verified: "2026-03-06"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - crash-reporting
+    - firebase
+    - monitoring
+- id: "google-signin-react-native"
+  name: "Google Sign-In for React Native"
+  url: "https://github.com/react-native-google-signin/google-signin"
+  category: "Backend & Auth"
+  subcategory: "Auth Providers & SDKs"
+  platform: "react-native"
+  type: "library"
+  description: "Official Google Sign-In SDK wrapper for React Native with one-tap and web client ID support."
+  last_verified: "2026-03-06"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - auth
+    - google
+    - identity
+- id: "react-native-webview"
+  name: "React Native WebView"
+  url: "https://github.com/react-native-webview/react-native-webview"
+  category: "Device APIs"
+  subcategory: "Device Utilities"
+  platform: "react-native"
+  type: "library"
+  description: "Cross-platform WebView component for rendering web content inside React Native apps."
+  last_verified: "2026-03-06"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - webview
+    - web-content
+    - native
+- id: "react-native-svg"
+  name: "React Native SVG"
+  url: "https://github.com/software-mansion/react-native-svg"
+  category: "UI & Styling"
+  subcategory: "Icons & SVG"
+  platform: "react-native"
+  type: "library"
+  description: "SVG rendering primitives for React Native used by icon libraries and custom vector graphics."
+  last_verified: "2026-03-06"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - svg
+    - graphics
+    - ui

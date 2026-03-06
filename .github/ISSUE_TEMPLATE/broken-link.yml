@@ -1,0 +1,31 @@
+name: Broken Link
+description: Report a resource link that is dead, redirected incorrectly, or stale
+labels: ["bug", "maintenance"]
+body:
+  - type: input
+    id: resource_name
+    attributes:
+      label: Resource name
+    validations:
+      required: true
+
+  - type: input
+    id: broken_url
+    attributes:
+      label: Broken URL
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue_details
+    attributes:
+      label: What failed?
+    validations:
+      required: true
+
+  - type: input
+    id: suggested_replacement
+    attributes:
+      label: Suggested replacement URL
+    validations:
+      required: false
