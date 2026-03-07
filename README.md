@@ -37,11 +37,11 @@ This repository prioritizes clear grouping, practical DX value, and verified lin
 | [Navigation](#navigation) | 6 |
 | [State & Data](#state--data) | 8 |
 | [Backend & Auth](#backend--auth) | 7 |
-| [UI & Styling](#ui--styling) | 16 |
+| [UI & Styling](#ui--styling) | 15 |
 | [Animation & Gestures](#animation--gestures) | 6 |
-| [UX Libraries](#ux-libraries) | 4 |
+| [UX Libraries](#ux-libraries) | 5 |
 | [Forms & Validation](#forms--validation) | 6 |
-| [Media & Camera](#media--camera) | 4 |
+| [Media & Camera](#media--camera) | 6 |
 | [Device APIs](#device-apis) | 7 |
 | [Accessibility & i18n](#accessibility--i18n) | 4 |
 | [Push Notifications](#push-notifications) | 4 |
@@ -203,7 +203,7 @@ Generated from `data/resources.yaml` via `npm run build:readme`.
 | [Tamagui](https://github.com/tamagui/tamagui)<br>![GitHub stars](https://img.shields.io/github/stars/tamagui/tamagui?style=flat&logo=github&label=stars) | High-performance UI kit and compiler for shared React Native and web design systems. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `design-system` `cross-platform` `ui` |
 | [Uniwind](https://github.com/uni-stack/uniwind)<br>![GitHub stars](https://img.shields.io/github/stars/uni-stack/uniwind?style=flat&logo=github&label=stars) | Tailwind bindings for React Native from the Unistyles ecosystem, focused on speed. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `tailwind` `styling` `unistyles` |
 
-### Component Libraries (6)
+### Component Libraries (5)
 
 | Resource | Why it helps | Signals |
 | --- | --- | --- |
@@ -211,7 +211,6 @@ Generated from `data/resources.yaml` via `npm run build:readme`.
 | [HeroUI Native](https://github.com/heroui-inc/heroui-native)<br>![GitHub stars](https://img.shields.io/github/stars/heroui-inc/heroui-native?style=flat&logo=github&label=stars) | React Native UI kit from the HeroUI team, built with Uniwind-based styling patterns. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `ui-kit` `components` `uniwind` |
 | [React Native Elements](https://github.com/react-native-elements/react-native-elements)<br>![GitHub stars](https://img.shields.io/github/stars/react-native-elements/react-native-elements?style=flat&logo=github&label=stars) | Mature cross-platform UI toolkit with broad component coverage for React Native teams. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `ui-kit` `components` `react-native` |
 | [React Native Paper](https://github.com/callstack/react-native-paper)<br>![GitHub stars](https://img.shields.io/github/stars/callstack/react-native-paper?style=flat&logo=github&label=stars) | Material Design component library with strong accessibility and theming support. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `components` `material` `theming` |
-| [React Native Reanimated Carousel](https://github.com/dohooo/react-native-reanimated-carousel)<br>![GitHub stars](https://img.shields.io/github/stars/dohooo/react-native-reanimated-carousel?style=flat&logo=github&label=stars) | Carousel component library built on Reanimated for swipeable banners, cards, and snapping layouts. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-07 · License: MIT · Tags: `carousel` `components` `reanimated` |
 | [React Native Reusables](https://github.com/founded-labs/react-native-reusables)<br>![GitHub stars](https://img.shields.io/github/stars/founded-labs/react-native-reusables?style=flat&logo=github&label=stars) | Shadcn-inspired React Native components using Uniwind and NativeWind conventions. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `components` `nativewind` `uniwind` |
 
 ### Expo UI (1)
@@ -255,6 +254,12 @@ Generated from `data/resources.yaml` via `npm run build:readme`.
 
 ## UX Libraries
 
+### Carousels (1)
+
+| Resource | Why it helps | Signals |
+| --- | --- | --- |
+| [React Native Reanimated Carousel](https://github.com/dohooo/react-native-reanimated-carousel)<br>![GitHub stars](https://img.shields.io/github/stars/dohooo/react-native-reanimated-carousel?style=flat&logo=github&label=stars) | Carousel component library built on Reanimated for swipeable banners, cards, and snapping layouts. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-07 · License: MIT · Tags: `carousel` `components` `reanimated` |
+
 ### Toasts & Alerts (1)
 
 | Resource | Why it helps | Signals |
@@ -296,12 +301,14 @@ Generated from `data/resources.yaml` via `npm run build:readme`.
 
 ## Media & Camera
 
-### Image & Video (2)
+### Image & Video (4)
 
 | Resource | Why it helps | Signals |
 | --- | --- | --- |
 | [Expo Image SDK Docs](https://docs.expo.dev/versions/latest/sdk/image/) | Official Expo Image module docs for rendering, caching, and progressive media loading. | ![platform: expo](https://img.shields.io/static/v1?label=platform&message=expo&color=3b82f6) ![type: article](https://img.shields.io/static/v1?label=type&message=article&color=64748b) ![source: official](https://img.shields.io/static/v1?label=source&message=official&color=16a34a) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · Tags: `expo-image` `media` `performance` |
 | [Expo Video SDK Docs](https://docs.expo.dev/versions/latest/sdk/video/) | Official Expo Video module docs for playback, controls, and streaming integration. | ![platform: expo](https://img.shields.io/static/v1?label=platform&message=expo&color=3b82f6) ![type: article](https://img.shields.io/static/v1?label=type&message=article&color=64748b) ![source: official](https://img.shields.io/static/v1?label=source&message=official&color=16a34a) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · Tags: `expo-video` `media` `playback` |
+| [React Native Compressor](https://github.com/numandev1/react-native-compressor)<br>![GitHub stars](https://img.shields.io/github/stars/numandev1/react-native-compressor?style=flat&logo=github&label=stars) | Media compression library for images, videos, and audio in React Native apps. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-07 · License: MIT · Tags: `compression` `media` `react-native` |
+| [React Native Fast Image](https://github.com/DylanVann/react-native-fast-image)<br>![GitHub stars](https://img.shields.io/github/stars/dylanvann/react-native-fast-image?style=flat&logo=github&label=stars) | High-performance image component with aggressive caching, priority loading, and GIF support. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-07 · License: MIT · Tags: `images` `caching` `performance` |
 
 ### Camera & Vision (2)
 

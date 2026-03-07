@@ -1248,6 +1248,38 @@
     - expo-video
     - media
     - playback
+- id: "react-native-compressor"
+  name: "React Native Compressor"
+  url: "https://github.com/numandev1/react-native-compressor"
+  category: "Media & Camera"
+  subcategory: "Image & Video"
+  platform: "react-native"
+  type: "library"
+  description: "Media compression library for images, videos, and audio in React Native apps."
+  last_verified: "2026-03-07"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - compression
+    - media
+    - react-native
+- id: "react-native-fast-image"
+  name: "React Native Fast Image"
+  url: "https://github.com/DylanVann/react-native-fast-image"
+  category: "Media & Camera"
+  subcategory: "Image & Video"
+  platform: "react-native"
+  type: "library"
+  description: "High-performance image component with aggressive caching, priority loading, and GIF support."
+  last_verified: "2026-03-07"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - images
+    - caching
+    - performance
 - id: "heroui-native"
   name: "HeroUI Native"
   url: "https://github.com/heroui-inc/heroui-native"
@@ -1299,8 +1331,8 @@
 - id: "react-native-reanimated-carousel"
   name: "React Native Reanimated Carousel"
   url: "https://github.com/dohooo/react-native-reanimated-carousel"
-  category: "UI & Styling"
-  subcategory: "Component Libraries"
+  category: "UX Libraries"
+  subcategory: "Carousels"
   platform: "react-native"
   type: "library"
   description: "Carousel component library built on Reanimated for swipeable banners, cards, and snapping layouts."

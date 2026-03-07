@@ -8,8 +8,7 @@ All notable changes to this project are documented in this file.
 
 - Added new `MCP Integrations` category with `MCP Setup Guides` subcategory.
 - Added MCP setup resources for Expo, Mixpanel, RevenueCat, and Supabase.
-- Added `React Native Reanimated Carousel` under `UI & Styling > Component Libraries`.
-- Added `React Native Localize` and `Notifee` resources.
+- Added `React Native Localize`, `Notifee`, `React Native Compressor`, and `React Native Fast Image` resources.
 
 ### Changed
 

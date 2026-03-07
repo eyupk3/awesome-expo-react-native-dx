@@ -54,7 +54,10 @@ export const SUBCATEGORIES = new Map([
     "Animation & Gestures",
     new Set(["Animation Libraries", "Graphics & Rendering", "Gestures"]),
   ],
-  ["UX Libraries", new Set(["Sheets", "Toasts & Alerts", "Error Handling"])],
+  [
+    "UX Libraries",
+    new Set(["Carousels", "Sheets", "Toasts & Alerts", "Error Handling"]),
+  ],
   ["Forms & Validation", new Set(["Form Libraries", "Schema Validation"])],
   ["Media & Camera", new Set(["Image & Video", "Camera & Vision"])],
   ["Device APIs", new Set(["Maps & Location", "Device Utilities"])],
