@@ -21,6 +21,7 @@ This repository prioritizes clear grouping, practical DX value, and verified lin
 - [Push Notifications](#push-notifications)
 - [Analytics & Monitoring](#analytics--monitoring)
 - [Monetization](#monetization)
+- [MCP Integrations](#mcp-integrations)
 - [Platform & Native Architecture](#platform--native-architecture)
 - [Build & Release](#build--release)
 - [Testing & Quality](#testing--quality)
@@ -36,16 +37,17 @@ This repository prioritizes clear grouping, practical DX value, and verified lin
 | [Navigation](#navigation) | 6 |
 | [State & Data](#state--data) | 8 |
 | [Backend & Auth](#backend--auth) | 7 |
-| [UI & Styling](#ui--styling) | 15 |
+| [UI & Styling](#ui--styling) | 16 |
 | [Animation & Gestures](#animation--gestures) | 6 |
 | [UX Libraries](#ux-libraries) | 4 |
 | [Forms & Validation](#forms--validation) | 6 |
 | [Media & Camera](#media--camera) | 4 |
 | [Device APIs](#device-apis) | 7 |
-| [Accessibility & i18n](#accessibility--i18n) | 3 |
-| [Push Notifications](#push-notifications) | 3 |
+| [Accessibility & i18n](#accessibility--i18n) | 4 |
+| [Push Notifications](#push-notifications) | 4 |
 | [Analytics & Monitoring](#analytics--monitoring) | 7 |
 | [Monetization](#monetization) | 3 |
+| [MCP Integrations](#mcp-integrations) | 4 |
 | [Platform & Native Architecture](#platform--native-architecture) | 7 |
 | [Build & Release](#build--release) | 5 |
 | [Testing & Quality](#testing--quality) | 6 |
@@ -98,18 +100,18 @@ Generated from `data/resources.yaml` via `npm run build:readme`.
 
 ## Starter Kits & Templates
 
-### Official Starters (3)
+### Official Starters (2)
 
 | Resource | Why it helps | Signals |
 | --- | --- | --- |
 | [Create Expo App Guide](https://docs.expo.dev/more/create-expo/) | Official guide for bootstrapping Expo projects with templates and flags. | ![platform: expo](https://img.shields.io/static/v1?label=platform&message=expo&color=3b82f6) ![type: article](https://img.shields.io/static/v1?label=type&message=article&color=64748b) ![source: official](https://img.shields.io/static/v1?label=source&message=official&color=16a34a) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · Tags: `starter` `template` `official` |
-| [Expo Default Template](https://github.com/expo/expo/tree/main/templates/expo-template-default)<br>![GitHub stars](https://img.shields.io/github/stars/expo/expo?style=flat&logo=github&label=stars) | Canonical Expo template with current defaults and baseline project structure. | ![platform: expo](https://img.shields.io/static/v1?label=platform&message=expo&color=3b82f6) ![type: template](https://img.shields.io/static/v1?label=type&message=template&color=16a34a) ![source: official](https://img.shields.io/static/v1?label=source&message=official&color=16a34a) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `template` `starter` `expo` |
 | [Expo Tabs Template](https://github.com/expo/expo/tree/main/templates/expo-template-tabs)<br>![GitHub stars](https://img.shields.io/github/stars/expo/expo?style=flat&logo=github&label=stars) | Expo starter template featuring tab navigation and common app shell patterns. | ![platform: expo](https://img.shields.io/static/v1?label=platform&message=expo&color=3b82f6) ![type: template](https://img.shields.io/static/v1?label=type&message=template&color=16a34a) ![source: official](https://img.shields.io/static/v1?label=source&message=official&color=16a34a) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `template` `tabs` `expo` |
 
-### CLIs & Generators (2)
+### CLIs & Generators (3)
 
 | Resource | Why it helps | Signals |
 | --- | --- | --- |
+| [Create Better T Stack](https://github.com/AmanVarshney01/create-better-t-stack)<br>![GitHub stars](https://img.shields.io/github/stars/amanvarshney01/create-better-t-stack?style=flat&logo=github&label=stars) | CLI for scaffolding type-safe TypeScript stacks with optional React Native frontend and backend choices. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: tool](https://img.shields.io/static/v1?label=type&message=tool&color=0ea5e9) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-07 · License: MIT · Tags: `starter` `cli` `typescript` `react-native` |
 | [Create Expo Stack](https://github.com/roninoss/create-expo-stack)<br>![GitHub stars](https://img.shields.io/github/stars/roninoss/create-expo-stack?style=flat&logo=github&label=stars) | CLI to bootstrap Expo apps with routing, styling, and backend stack options. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: tool](https://img.shields.io/static/v1?label=type&message=tool&color=0ea5e9) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `starter` `cli` `expo` |
 | [Ignite CLI](https://github.com/infinitered/ignite)<br>![GitHub stars](https://img.shields.io/github/stars/infinitered/ignite?style=flat&logo=github&label=stars) | Battle-tested React Native boilerplate generator focused on scalable app setup. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: tool](https://img.shields.io/static/v1?label=type&message=tool&color=0ea5e9) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `boilerplate` `cli` `react-native` |
 
@@ -201,7 +203,7 @@ Generated from `data/resources.yaml` via `npm run build:readme`.
 | [Tamagui](https://github.com/tamagui/tamagui)<br>![GitHub stars](https://img.shields.io/github/stars/tamagui/tamagui?style=flat&logo=github&label=stars) | High-performance UI kit and compiler for shared React Native and web design systems. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `design-system` `cross-platform` `ui` |
 | [Uniwind](https://github.com/uni-stack/uniwind)<br>![GitHub stars](https://img.shields.io/github/stars/uni-stack/uniwind?style=flat&logo=github&label=stars) | Tailwind bindings for React Native from the Unistyles ecosystem, focused on speed. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `tailwind` `styling` `unistyles` |
 
-### Component Libraries (5)
+### Component Libraries (6)
 
 | Resource | Why it helps | Signals |
 | --- | --- | --- |
@@ -209,6 +211,7 @@ Generated from `data/resources.yaml` via `npm run build:readme`.
 | [HeroUI Native](https://github.com/heroui-inc/heroui-native)<br>![GitHub stars](https://img.shields.io/github/stars/heroui-inc/heroui-native?style=flat&logo=github&label=stars) | React Native UI kit from the HeroUI team, built with Uniwind-based styling patterns. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `ui-kit` `components` `uniwind` |
 | [React Native Elements](https://github.com/react-native-elements/react-native-elements)<br>![GitHub stars](https://img.shields.io/github/stars/react-native-elements/react-native-elements?style=flat&logo=github&label=stars) | Mature cross-platform UI toolkit with broad component coverage for React Native teams. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `ui-kit` `components` `react-native` |
 | [React Native Paper](https://github.com/callstack/react-native-paper)<br>![GitHub stars](https://img.shields.io/github/stars/callstack/react-native-paper?style=flat&logo=github&label=stars) | Material Design component library with strong accessibility and theming support. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `components` `material` `theming` |
+| [React Native Reanimated Carousel](https://github.com/dohooo/react-native-reanimated-carousel)<br>![GitHub stars](https://img.shields.io/github/stars/dohooo/react-native-reanimated-carousel?style=flat&logo=github&label=stars) | Carousel component library built on Reanimated for swipeable banners, cards, and snapping layouts. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-07 · License: MIT · Tags: `carousel` `components` `reanimated` |
 | [React Native Reusables](https://github.com/founded-labs/react-native-reusables)<br>![GitHub stars](https://img.shields.io/github/stars/founded-labs/react-native-reusables?style=flat&logo=github&label=stars) | Shadcn-inspired React Native components using Uniwind and NativeWind conventions. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `components` `nativewind` `uniwind` |
 
 ### Expo UI (1)
@@ -330,11 +333,12 @@ Generated from `data/resources.yaml` via `npm run build:readme`.
 
 ## Accessibility & i18n
 
-### Localization (2)
+### Localization (3)
 
 | Resource | Why it helps | Signals |
 | --- | --- | --- |
 | [i18next Docs](https://www.i18next.com/) | Core i18next docs for translation management, interpolation, and locale detection. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: article](https://img.shields.io/static/v1?label=type&message=article&color=64748b) ![source: official](https://img.shields.io/static/v1?label=source&message=official&color=16a34a) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · Tags: `i18n` `localization` `translations` |
+| [React Native Localize](https://github.com/zoontek/react-native-localize)<br>![GitHub stars](https://img.shields.io/github/stars/zoontek/react-native-localize?style=flat&logo=github&label=stars) | Device locale, timezone, and regional settings helpers for internationalized React Native apps. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-07 · License: MIT · Tags: `i18n` `localization` `react-native` |
 | [react-i18next Docs](https://react.i18next.com/) | React bindings for i18next with hooks and providers for multilingual Expo/RN apps. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: article](https://img.shields.io/static/v1?label=type&message=article&color=64748b) ![source: official](https://img.shields.io/static/v1?label=source&message=official&color=16a34a) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · Tags: `i18n` `localization` `react` |
 
 ### Accessibility (1)
@@ -346,12 +350,13 @@ Generated from `data/resources.yaml` via `npm run build:readme`.
 
 ## Push Notifications
 
-### Push Services (3)
+### Push Services (4)
 
 | Resource | Why it helps | Signals |
 | --- | --- | --- |
 | [Expo Notifications SDK Docs](https://docs.expo.dev/versions/latest/sdk/notifications/) | Official Expo push and local notification APIs with scheduling, channels, and handling. | ![platform: expo](https://img.shields.io/static/v1?label=platform&message=expo&color=3b82f6) ![type: article](https://img.shields.io/static/v1?label=type&message=article&color=64748b) ![source: official](https://img.shields.io/static/v1?label=source&message=official&color=16a34a) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · Tags: `notifications` `push` `expo` |
 | [Firebase Cloud Messaging (React Native Firebase)](https://rnfirebase.io/messaging/usage) | Official React Native Firebase guide for push notification delivery via FCM. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: article](https://img.shields.io/static/v1?label=type&message=article&color=64748b) ![source: official](https://img.shields.io/static/v1?label=source&message=official&color=16a34a) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-06 · Tags: `push-notifications` `fcm` `firebase` |
+| [Notifee](https://github.com/invertase/notifee)<br>![GitHub stars](https://img.shields.io/github/stars/invertase/notifee?style=flat&logo=github&label=stars) | Feature-rich notification library for React Native with local notifications, channels, and advanced handling. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-07 · License: Apache-2.0 · Tags: `notifications` `push` `react-native` |
 | [OneSignal React Native SDK](https://github.com/OneSignal/react-native-onesignal)<br>![GitHub stars](https://img.shields.io/github/stars/onesignal/react-native-onesignal?style=flat&logo=github&label=stars) | Push notification and in-app messaging SDK for React Native with segmentation and A/B testing. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: commercial](https://img.shields.io/static/v1?label=source&message=commercial&color=a855f7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-06 · License: MIT · Tags: `push-notifications` `messaging` `onesignal` |
 
 
@@ -384,6 +389,18 @@ Generated from `data/resources.yaml` via `npm run build:readme`.
 | [Adapty React Native SDK Installation](https://adapty.io/docs/sdk-installation-reactnative) | Official Adapty setup docs for subscriptions, paywalls, and in-app purchase flows. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: article](https://img.shields.io/static/v1?label=type&message=article&color=64748b) ![source: commercial](https://img.shields.io/static/v1?label=source&message=commercial&color=a855f7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · Tags: `subscriptions` `iap` `adapty` |
 | [React Native IAP](https://github.com/dooboolab-community/react-native-iap)<br>![GitHub stars](https://img.shields.io/github/stars/dooboolab-community/react-native-iap?style=flat&logo=github&label=stars) | Cross-platform in-app purchase library for iOS and Android with receipt validation support. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `iap` `purchases` `monetization` |
 | [RevenueCat React Native Installation](https://www.revenuecat.com/docs/getting-started/installation/reactnative) | Official RevenueCat React Native setup guide for in-app purchases and subscriptions. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: article](https://img.shields.io/static/v1?label=type&message=article&color=64748b) ![source: commercial](https://img.shields.io/static/v1?label=source&message=commercial&color=a855f7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · Tags: `iap` `subscriptions` `monetization` |
+
+
+## MCP Integrations
+
+### MCP Setup Guides (4)
+
+| Resource | Why it helps | Signals |
+| --- | --- | --- |
+| [Expo MCP Server](https://docs.expo.dev/eas/ai/mcp/) | Official Expo guide for configuring MCP server access in AI clients with EAS-aware tooling. | ![platform: expo](https://img.shields.io/static/v1?label=platform&message=expo&color=3b82f6) ![type: article](https://img.shields.io/static/v1?label=type&message=article&color=64748b) ![source: official](https://img.shields.io/static/v1?label=source&message=official&color=16a34a) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-07 · Tags: `mcp` `expo` `eas` `ai` |
+| [Mixpanel MCP Docs](https://docs.mixpanel.com/docs/features/mcp) | Official Mixpanel MCP docs for connecting AI clients with OAuth across US, EU, and IN endpoints. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: article](https://img.shields.io/static/v1?label=type&message=article&color=64748b) ![source: commercial](https://img.shields.io/static/v1?label=source&message=commercial&color=a855f7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-07 · Tags: `mcp` `mixpanel` `analytics` `oauth` |
+| [RevenueCat MCP Server Setup](https://www.revenuecat.com/docs/tools/mcp/setup) | Official setup docs for RevenueCat Cloud MCP using OAuth or API-key auth in AI tools. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: article](https://img.shields.io/static/v1?label=type&message=article&color=64748b) ![source: commercial](https://img.shields.io/static/v1?label=source&message=commercial&color=a855f7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-07 · Tags: `mcp` `revenuecat` `subscriptions` `iap` |
+| [Supabase MCP Docs](https://supabase.com/docs/guides/getting-started/mcp) | Official Supabase MCP guide for connecting AI tools with scoped project access and safety controls. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: article](https://img.shields.io/static/v1?label=type&message=article&color=64748b) ![source: official](https://img.shields.io/static/v1?label=source&message=official&color=16a34a) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-07 · Tags: `mcp` `supabase` `baas` `security` |
 
 
 ## Platform & Native Architecture

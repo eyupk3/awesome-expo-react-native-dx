@@ -143,22 +143,6 @@
     - starter
     - template
     - official
-- id: "expo-template-default"
-  name: "Expo Default Template"
-  url: "https://github.com/expo/expo/tree/main/templates/expo-template-default"
-  category: "Starter Kits & Templates"
-  subcategory: "Official Starters"
-  platform: "expo"
-  type: "template"
-  description: "Canonical Expo template with current defaults and baseline project structure."
-  last_verified: "2026-03-04"
-  source_kind: "official"
-  license: "MIT"
-  maintained: "yes"
-  tags:
-    - template
-    - starter
-    - expo
 - id: "expo-template-tabs"
   name: "Expo Tabs Template"
   url: "https://github.com/expo/expo/tree/main/templates/expo-template-tabs"
@@ -207,6 +191,23 @@
     - starter
     - cli
     - expo
+- id: "create-better-t-stack"
+  name: "Create Better T Stack"
+  url: "https://github.com/AmanVarshney01/create-better-t-stack"
+  category: "Starter Kits & Templates"
+  subcategory: "CLIs & Generators"
+  platform: "react-native"
+  type: "tool"
+  description: "CLI for scaffolding type-safe TypeScript stacks with optional React Native frontend and backend choices."
+  last_verified: "2026-03-07"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - starter
+    - cli
+    - typescript
+    - react-native
 - id: "create-t3-turbo"
   name: "Create T3 Turbo"
   url: "https://github.com/t3-oss/create-t3-turbo"
@@ -1295,6 +1296,22 @@
     - ui-kit
     - components
     - react-native
+- id: "react-native-reanimated-carousel"
+  name: "React Native Reanimated Carousel"
+  url: "https://github.com/dohooo/react-native-reanimated-carousel"
+  category: "UI & Styling"
+  subcategory: "Component Libraries"
+  platform: "react-native"
+  type: "library"
+  description: "Carousel component library built on Reanimated for swipeable banners, cards, and snapping layouts."
+  last_verified: "2026-03-07"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - carousel
+    - components
+    - reanimated
 - id: "react-native-reusables"
   name: "React Native Reusables"
   url: "https://github.com/founded-labs/react-native-reusables"
@@ -1887,6 +1904,22 @@
     - i18n
     - localization
     - react
+- id: "react-native-localize"
+  name: "React Native Localize"
+  url: "https://github.com/zoontek/react-native-localize"
+  category: "Accessibility & i18n"
+  subcategory: "Localization"
+  platform: "react-native"
+  type: "library"
+  description: "Device locale, timezone, and regional settings helpers for internationalized React Native apps."
+  last_verified: "2026-03-07"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - i18n
+    - localization
+    - react-native
 - id: "lottie-react-native"
   name: "Lottie React Native"
   url: "https://github.com/lottie-react-native/lottie-react-native"
@@ -2079,6 +2112,22 @@
     - push-notifications
     - messaging
     - onesignal
+- id: "notifee-react-native"
+  name: "Notifee"
+  url: "https://github.com/invertase/notifee"
+  category: "Push Notifications"
+  subcategory: "Push Services"
+  platform: "react-native"
+  type: "library"
+  description: "Feature-rich notification library for React Native with local notifications, channels, and advanced handling."
+  last_verified: "2026-03-07"
+  source_kind: "community"
+  license: "Apache-2.0"
+  maintained: "yes"
+  tags:
+    - notifications
+    - push
+    - react-native
 - id: "firebase-messaging-react-native"
   name: "Firebase Cloud Messaging (React Native Firebase)"
   url: "https://rnfirebase.io/messaging/usage"
@@ -2175,3 +2224,71 @@
     - svg
     - graphics
     - ui
+- id: "expo-mcp-server-docs"
+  name: "Expo MCP Server"
+  url: "https://docs.expo.dev/eas/ai/mcp/"
+  category: "MCP Integrations"
+  subcategory: "MCP Setup Guides"
+  platform: "expo"
+  type: "article"
+  description: "Official Expo guide for configuring MCP server access in AI clients with EAS-aware tooling."
+  last_verified: "2026-03-07"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - mcp
+    - expo
+    - eas
+    - ai
+- id: "mixpanel-mcp-docs"
+  name: "Mixpanel MCP Docs"
+  url: "https://docs.mixpanel.com/docs/features/mcp"
+  category: "MCP Integrations"
+  subcategory: "MCP Setup Guides"
+  platform: "both"
+  type: "article"
+  description: "Official Mixpanel MCP docs for connecting AI clients with OAuth across US, EU, and IN endpoints."
+  last_verified: "2026-03-07"
+  source_kind: "commercial"
+  license: null
+  maintained: "yes"
+  tags:
+    - mcp
+    - mixpanel
+    - analytics
+    - oauth
+- id: "revenuecat-mcp-server-setup"
+  name: "RevenueCat MCP Server Setup"
+  url: "https://www.revenuecat.com/docs/tools/mcp/setup"
+  category: "MCP Integrations"
+  subcategory: "MCP Setup Guides"
+  platform: "both"
+  type: "article"
+  description: "Official setup docs for RevenueCat Cloud MCP using OAuth or API-key auth in AI tools."
+  last_verified: "2026-03-07"
+  source_kind: "commercial"
+  license: null
+  maintained: "yes"
+  tags:
+    - mcp
+    - revenuecat
+    - subscriptions
+    - iap
+- id: "supabase-mcp-docs"
+  name: "Supabase MCP Docs"
+  url: "https://supabase.com/docs/guides/getting-started/mcp"
+  category: "MCP Integrations"
+  subcategory: "MCP Setup Guides"
+  platform: "both"
+  type: "article"
+  description: "Official Supabase MCP guide for connecting AI tools with scoped project access and safety controls."
+  last_verified: "2026-03-07"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - mcp
+    - supabase
+    - baas
+    - security

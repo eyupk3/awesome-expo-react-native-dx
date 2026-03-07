@@ -14,6 +14,7 @@ export const CATEGORIES = [
   "Push Notifications",
   "Analytics & Monitoring",
   "Monetization",
+  "MCP Integrations",
   "Platform & Native Architecture",
   "Build & Release",
   "Testing & Quality",
@@ -64,6 +65,7 @@ export const SUBCATEGORIES = new Map([
     new Set(["Analytics & Attribution", "Crash Reporting"]),
   ],
   ["Monetization", new Set(["In-App Purchases & Subscriptions"])],
+  ["MCP Integrations", new Set(["MCP Setup Guides"])],
   [
     "Platform & Native Architecture",
     new Set([
