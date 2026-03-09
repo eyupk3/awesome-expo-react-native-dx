@@ -8,22 +8,11 @@ function toGitHubAnchor(text) {
     .replace(/ /g, "-");
 }
 
-function buildCategoryToc(categories) {
-  return categories
-    .map((category) => {
-      const anchor = toGitHubAnchor(category);
-      return `- [${category}](#${anchor})`;
-    })
-    .join("\n");
-}
-
 export function buildReadmeDocument({
   categories,
   categoryCounts,
   generatedBody,
 }) {
-  const categoryToc = buildCategoryToc(categories);
-
   const overviewRows = categories
     .map((category) => {
       const anchor = toGitHubAnchor(category);
@@ -37,10 +26,6 @@ export function buildReadmeDocument({
 Curated, actively maintained resources for building high-quality Expo and React Native applications.
 
 This repository prioritizes clear grouping, practical DX value, and verified links.
-
-## Categories
-
-${categoryToc}
 
 ## Category Overview
 

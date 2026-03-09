@@ -2,6 +2,17 @@
 
 All notable changes to this project are documented in this file.
 
+## [1.0.2] - 2026-03-09
+
+### Added
+
+- Added new subcategories: `Rich Text & Markdown`, `Local-First Databases & Sync`, and `ORM & Query Builders`.
+- Added 12 resources across UX, State & Data, Forms, Device APIs, and Performance sections.
+
+### Changed
+
+- Removed `Dripsy` and two Expo Router docs resources from the index.
+
 ## [1.0.1] - 2026-03-07
 
 ### Added

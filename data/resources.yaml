@@ -47,22 +47,6 @@
     - upgrade
     - guide
     - expo
-- id: "expo-router-docs"
-  name: "Expo Router Docs"
-  url: "https://docs.expo.dev/router/introduction/"
-  category: "Docs & Upgrade Guides"
-  subcategory: "Expo Docs"
-  platform: "expo"
-  type: "article"
-  description: "Official file-based routing docs for Expo Router, including web and native usage."
-  last_verified: "2026-03-04"
-  source_kind: "official"
-  license: null
-  maintained: "yes"
-  tags:
-    - routing
-    - expo-router
-    - official
 - id: "eas-docs"
   name: "EAS Documentation"
   url: "https://docs.expo.dev/eas/"
@@ -79,6 +63,22 @@
     - eas
     - ci-cd
     - official
+- id: "expo-local-first-guide"
+  name: "Expo Local-First Guide"
+  url: "https://docs.expo.dev/guides/local-first/"
+  category: "Docs & Upgrade Guides"
+  subcategory: "Expo Docs"
+  platform: "expo"
+  type: "article"
+  description: "Guide for local-first app patterns in Expo, including offline data and sync strategy basics."
+  last_verified: "2026-03-09"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - local-first
+    - offline
+    - expo
 - id: "react-native-docs"
   name: "React Native Docs"
   url: "https://reactnative.dev/docs/getting-started"
@@ -110,22 +110,6 @@
   tags:
     - upgrade
     - tooling
-    - react-native
-- id: "react-native-082-release"
-  name: "React Native 0.82 Release"
-  url: "https://reactnative.dev/blog/2025/10/08/react-native-0.82"
-  category: "Docs & Upgrade Guides"
-  subcategory: "React Native Docs"
-  platform: "react-native"
-  type: "article"
-  description: "Official release post detailing React Native 0.82 updates, fixes, and migration notes."
-  last_verified: "2026-03-04"
-  source_kind: "official"
-  license: null
-  maintained: "yes"
-  tags:
-    - release
-    - upgrade
     - react-native
 - id: "create-expo-app-guide"
   name: "Create Expo App Guide"
@@ -272,38 +256,6 @@
     - deep-linking
     - routing
     - navigation
-- id: "expo-router-notation"
-  name: "Expo Router Notation"
-  url: "https://docs.expo.dev/router/basics/notation/"
-  category: "Navigation"
-  subcategory: "Expo Router"
-  platform: "expo"
-  type: "article"
-  description: "File naming and route conventions for Expo Router in large production apps."
-  last_verified: "2026-03-04"
-  source_kind: "official"
-  license: null
-  maintained: "yes"
-  tags:
-    - expo-router
-    - file-based-routing
-    - docs
-- id: "expo-router-typed-routes"
-  name: "Expo Router Typed Routes"
-  url: "https://docs.expo.dev/router/reference/typed-routes/"
-  category: "Navigation"
-  subcategory: "Expo Router"
-  platform: "expo"
-  type: "article"
-  description: "End-to-end type-safe route navigation patterns for Expo Router projects."
-  last_verified: "2026-03-04"
-  source_kind: "official"
-  license: null
-  maintained: "yes"
-  tags:
-    - types
-    - expo-router
-    - navigation
 - id: "expo-linking-overview"
   name: "Expo Linking Overview"
   url: "https://docs.expo.dev/linking/overview/"
@@ -416,6 +368,70 @@
     - storage
     - performance
     - persistence
+- id: "tinybase"
+  name: "TinyBase"
+  url: "https://github.com/tinyplex/tinybase"
+  category: "State & Data"
+  subcategory: "Local-First Databases & Sync"
+  platform: "both"
+  type: "library"
+  description: "Reactive local-first data store and sync engine for apps that need offline-first data flows."
+  last_verified: "2026-03-09"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - local-first
+    - sync
+    - reactive-store
+- id: "instantdb"
+  name: "Instant"
+  url: "https://github.com/instantdb/instant"
+  category: "State & Data"
+  subcategory: "Local-First Databases & Sync"
+  platform: "both"
+  type: "service"
+  description: "Realtime database platform with client-side queries, optimistic updates, and offline caching."
+  last_verified: "2026-03-09"
+  source_kind: "commercial"
+  license: "Apache-2.0"
+  maintained: "yes"
+  tags:
+    - realtime
+    - local-first
+    - sync
+- id: "drizzle-connect-expo-sqlite"
+  name: "Drizzle ORM + Expo SQLite"
+  url: "https://orm.drizzle.team/docs/connect-expo-sqlite"
+  category: "State & Data"
+  subcategory: "ORM & Query Builders"
+  platform: "expo"
+  type: "article"
+  description: "Official guide to connect Drizzle ORM with Expo SQLite for typed queries and schema workflows."
+  last_verified: "2026-03-09"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - drizzle
+    - orm
+    - expo-sqlite
+- id: "prisma-react-native-prisma"
+  name: "Prisma ORM for React Native and Expo"
+  url: "https://github.com/prisma/react-native-prisma"
+  category: "State & Data"
+  subcategory: "ORM & Query Builders"
+  platform: "both"
+  type: "library"
+  description: "Early access Prisma engine adaptation for React Native and Expo with SQLite and reactive query support."
+  last_verified: "2026-03-09"
+  source_kind: "official"
+  license: "Apache-2.0"
+  maintained: "yes"
+  tags:
+    - prisma
+    - orm
+    - expo
 - id: "nativewind-docs"
   name: "NativeWind"
   url: "https://github.com/nativewind/nativewind"
@@ -480,22 +496,6 @@
     - design-system
     - typescript
     - ui
-- id: "dripsy"
-  name: "Dripsy"
-  url: "https://github.com/nandorojo/dripsy"
-  category: "UI & Styling"
-  subcategory: "Styling & Theming"
-  platform: "both"
-  type: "library"
-  description: "Theme-driven responsive styling library tailored for React Native apps."
-  last_verified: "2026-03-04"
-  source_kind: "community"
-  license: "MIT"
-  maintained: "yes"
-  tags:
-    - theming
-    - styling
-    - responsive
 - id: "react-hook-form-get-started"
   name: "React Hook Form"
   url: "https://github.com/react-hook-form/react-hook-form"
@@ -528,6 +528,22 @@
     - forms
     - formik
     - validation
+- id: "react-native-date-picker"
+  name: "React Native Date Picker"
+  url: "https://github.com/henninghall/react-native-date-picker"
+  category: "Forms & Validation"
+  subcategory: "Form Libraries"
+  platform: "react-native"
+  type: "library"
+  description: "Native date, time, and datetime picker for iOS and Android with locale-aware customization."
+  last_verified: "2026-03-09"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - date-picker
+    - forms
+    - datetime
 - id: "zod-docs"
   name: "Zod Documentation"
   url: "https://zod.dev/"
@@ -751,6 +767,22 @@
   tags:
     - hermes
     - runtime
+    - performance
+- id: "why-did-you-render"
+  name: "Why Did You Render"
+  url: "https://github.com/welldone-software/why-did-you-render"
+  category: "Performance & Profiling"
+  subcategory: "Runtime & Engine"
+  platform: "both"
+  type: "library"
+  description: "Monkey patches React to detect potentially avoidable re-renders, including React Native apps."
+  last_verified: "2026-03-09"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - rerender
+    - debugging
     - performance
 - id: "reanimated-docs"
   name: "React Native Reanimated"
@@ -1344,6 +1376,54 @@
     - carousel
     - components
     - reanimated
+- id: "react-native-pager-view"
+  name: "React Native Pager View"
+  url: "https://github.com/callstack/react-native-pager-view"
+  category: "UX Libraries"
+  subcategory: "Carousels"
+  platform: "react-native"
+  type: "library"
+  description: "Native pager component for swipeable screens using Android ViewPager and iOS UIPageViewController."
+  last_verified: "2026-03-09"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - pager
+    - navigation
+    - swipe
+- id: "react-native-markdown-display"
+  name: "React Native Markdown Display"
+  url: "https://github.com/iamacup/react-native-markdown-display/"
+  category: "UX Libraries"
+  subcategory: "Rich Text & Markdown"
+  platform: "react-native"
+  type: "library"
+  description: "CommonMark-compatible markdown renderer for React Native with native components and customizable rules."
+  last_verified: "2026-03-09"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - markdown
+    - rich-text
+    - content
+- id: "react-native-live-markdown"
+  name: "React Native Live Markdown"
+  url: "https://github.com/expensify/react-native-live-markdown"
+  category: "UX Libraries"
+  subcategory: "Rich Text & Markdown"
+  platform: "react-native"
+  type: "library"
+  description: "Live markdown TextInput replacement with native selection and customizable parsing/styling."
+  last_verified: "2026-03-09"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - markdown
+    - textinput
+    - live-formatting
 - id: "react-native-reusables"
   name: "React Native Reusables"
   url: "https://github.com/founded-labs/react-native-reusables"
@@ -1472,6 +1552,22 @@
     - subscriptions
     - iap
     - adapty
+- id: "superwall-expo-docs"
+  name: "Superwall Expo Docs"
+  url: "https://superwall.com/docs/expo"
+  category: "Monetization"
+  subcategory: "In-App Purchases & Subscriptions"
+  platform: "expo"
+  type: "article"
+  description: "Official Superwall Expo docs for paywalls, subscription flows, and in-app monetization setup."
+  last_verified: "2026-03-07"
+  source_kind: "commercial"
+  license: null
+  maintained: "yes"
+  tags:
+    - paywalls
+    - subscriptions
+    - expo
 - id: "react-native-iap"
   name: "React Native IAP"
   url: "https://github.com/dooboolab-community/react-native-iap"
@@ -1568,6 +1664,22 @@
     - share
     - native
     - integration
+- id: "react-native-view-shot"
+  name: "React Native View Shot"
+  url: "https://github.com/gre/react-native-view-shot"
+  category: "Device APIs"
+  subcategory: "Device Utilities"
+  platform: "react-native"
+  type: "library"
+  description: "Capture React Native views as images for sharing, saving, and snapshot-based UI workflows."
+  last_verified: "2026-03-09"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - screenshot
+    - capture
+    - images
 - id: "nitro-modules"
   name: "Nitro Modules"
   url: "https://github.com/mrousavy/nitro"
@@ -1999,6 +2111,22 @@
   tags:
     - auth
     - oauth
+    - expo
+- id: "expo-apple-authentication-sdk-docs"
+  name: "Expo Apple Authentication SDK Docs"
+  url: "https://docs.expo.dev/versions/latest/sdk/apple-authentication/"
+  category: "Backend & Auth"
+  subcategory: "Auth Providers & SDKs"
+  platform: "expo"
+  type: "article"
+  description: "Official Expo docs for Sign in with Apple setup, APIs, and credential flow handling."
+  last_verified: "2026-03-07"
+  source_kind: "official"
+  license: null
+  maintained: "yes"
+  tags:
+    - auth
+    - apple
     - expo
 - id: "clerk-expo-quickstart"
   name: "Clerk Expo Quick Start"

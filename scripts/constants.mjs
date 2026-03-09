@@ -38,6 +38,8 @@ export const SUBCATEGORIES = new Map([
       "Server State & Caching",
       "Client State",
       "Local Storage & Persistence",
+      "Local-First Databases & Sync",
+      "ORM & Query Builders",
     ]),
   ],
   ["Backend & Auth", new Set(["BaaS Platforms", "Auth Providers & SDKs"])],
@@ -56,7 +58,13 @@ export const SUBCATEGORIES = new Map([
   ],
   [
     "UX Libraries",
-    new Set(["Carousels", "Sheets", "Toasts & Alerts", "Error Handling"]),
+    new Set([
+      "Carousels",
+      "Sheets",
+      "Toasts & Alerts",
+      "Error Handling",
+      "Rich Text & Markdown",
+    ]),
   ],
   ["Forms & Validation", new Set(["Form Libraries", "Schema Validation"])],
   ["Media & Camera", new Set(["Image & Video", "Camera & Vision"])],
