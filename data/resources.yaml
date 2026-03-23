@@ -2452,3 +2452,37 @@
     - supabase
     - baas
     - security
+- id: "expo-otp-autofill"
+  name: "Expo OTP Autofill"
+  url: "https://github.com/MULERx/expo-otp-autofill"
+  category: "Device APIs"
+  subcategory: "Device Utilities"
+  platform: "expo"
+  type: "library"
+  description: "Native Expo wrapper for Android SMS Retriever API enabling OTP autofill without permissions."
+  last_verified: "2026-03-20"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - otp
+    - sms
+    - autofill
+    - android
+- id: "voltra"
+  name: "Voltra"
+  url: "https://github.com/callstackincubator/voltra"
+  category: "Platform & Native Architecture"
+  subcategory: "Expo Modules & Config"
+  platform: "react-native"
+  type: "library"
+  description: "Build iOS Live Activities, Dynamic Island layouts, and Android Widgets using JSX without writing native Swift or Kotlin code."
+  last_verified: "2026-03-23"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - live-activities
+    - dynamic-island
+    - widgets
+    - native
