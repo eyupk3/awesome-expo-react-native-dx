@@ -1344,6 +1344,23 @@
     - gluestack
     - ui-kit
     - nativewind
+- id: "gluestack-ui-docs"
+  name: "gluestack-ui Docs"
+  url: "https://gluestack.io/"
+  category: "UI & Styling"
+  subcategory: "Component Libraries"
+  platform: "both"
+  type: "article"
+  description: "Official docs and component browser for gluestack-ui, copy-paste components for React Native and Expo using NativeWind."
+  last_verified: "2026-05-28"
+  source_kind: "official"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - gluestack
+    - ui-kit
+    - components
+    - docs
 - id: "react-native-elements"
   name: "React Native Elements"
   url: "https://github.com/react-native-elements/react-native-elements"
