@@ -768,6 +768,22 @@
     - hermes
     - runtime
     - performance
+- id: "react-buoy"
+  name: "React Buoy"
+  url: "https://github.com/Buoy-gg/buoy"
+  category: "Performance & Profiling"
+  subcategory: "Runtime & Engine"
+  platform: "both"
+  type: "tool"
+  description: "In-app devtools suite (network, storage, React Query, state, perf) that runs on-device in Expo Go, dev builds, and release builds."
+  last_verified: "2026-07-09"
+  source_kind: "community"
+  license: null
+  maintained: "yes"
+  tags:
+    - devtools
+    - debugging
+    - performance
 - id: "why-did-you-render"
   name: "Why Did You Render"
   url: "https://github.com/welldone-software/why-did-you-render"
@@ -2384,6 +2400,22 @@
     - svg
     - graphics
     - ui
+- id: "buoy-mcp-server-docs"
+  name: "Buoy MCP Server"
+  url: "https://buoy.gg/buoy/latest/docs/mcp"
+  category: "MCP Integrations"
+  subcategory: "MCP Setup Guides"
+  platform: "both"
+  type: "article"
+  description: "Setup guide for the Buoy MCP server so AI agents can inspect network, state, logs, and run benchmarks in a running app."
+  last_verified: "2026-07-09"
+  source_kind: "community"
+  license: null
+  maintained: "yes"
+  tags:
+    - mcp
+    - devtools
+    - ai
 - id: "expo-mcp-server-docs"
   name: "Expo MCP Server"
   url: "https://docs.expo.dev/eas/ai/mcp/"
