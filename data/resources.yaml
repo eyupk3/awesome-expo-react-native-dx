@@ -2469,3 +2469,19 @@
     - dynamic-island
     - widgets
     - native
+- id: "sherlo"
+  name: "Sherlo"
+  url: "https://sherlo.io"
+  category: "Testing & Quality"
+  platform: "both"
+  type: "service"
+  description: "Cloud visual regression testing for React Native and Expo - iOS and Android simulators, diffs every screen, Storybook, free plan."
+  last_verified: "2026-08-04"
+  source_kind: "commercial"
+  license: null
+  maintained: "yes"
+  tags:
+    - visual-regression
+    - screenshot
+    - storybook
+    - ci
