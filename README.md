@@ -18,7 +18,7 @@ This repository prioritizes clear grouping, practical DX value, and verified lin
 | [UX Libraries](#ux-libraries) | 8 |
 | [Forms & Validation](#forms--validation) | 7 |
 | [Media & Camera](#media--camera) | 6 |
-| [Device APIs](#device-apis) | 9 |
+| [Device APIs](#device-apis) | 8 |
 | [Accessibility & i18n](#accessibility--i18n) | 4 |
 | [Push Notifications](#push-notifications) | 4 |
 | [Analytics & Monitoring](#analytics--monitoring) | 7 |
@@ -26,7 +26,7 @@ This repository prioritizes clear grouping, practical DX value, and verified lin
 | [MCP Integrations](#mcp-integrations) | 4 |
 | [Platform & Native Architecture](#platform--native-architecture) | 8 |
 | [Build & Release](#build--release) | 5 |
-| [Testing & Quality](#testing--quality) | 6 |
+| [Testing & Quality](#testing--quality) | 7 |
 | [Performance & Profiling](#performance--profiling) | 6 |
 | [Learning & Community](#learning--community) | 16 |
 
@@ -292,7 +292,7 @@ Generated from `data/resources.yaml` via `npm run build:readme`.
 | --- | --- | --- |
 | [Valibot Docs](https://valibot.dev/) | Modular, tree-shakeable schema validator suited for bundle-size sensitive apps. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: article](https://img.shields.io/static/v1?label=type&message=article&color=64748b) ![source: official](https://img.shields.io/static/v1?label=source&message=official&color=16a34a) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · Tags: `validation` `bundle-size` `schema` |
 | [Yup Repository](https://github.com/jquense/yup)<br>![GitHub stars](https://img.shields.io/github/stars/jquense/yup?style=flat&logo=github&label=stars) | Mature object schema validator commonly used with form libraries in RN projects. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `validation` `schema` `forms` |
-| [Zod Documentation](https://zod.dev/) | TypeScript-first schema validation used widely with forms and API contracts. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: article](https://img.shields.io/static/v1?label=type&message=article&color=64748b) ![source: official](https://img.shields.io/static/v1?label=source&message=official&color=16a34a) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · Tags: `validation` `types` `schema` |
+| [Zod Documentation](https://github.com/colinhacks/zod)<br>![GitHub stars](https://img.shields.io/github/stars/colinhacks/zod?style=flat&logo=github&label=stars) | TypeScript-first schema validation used widely with forms and API contracts. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: article](https://img.shields.io/static/v1?label=type&message=article&color=64748b) ![source: official](https://img.shields.io/static/v1?label=source&message=official&color=16a34a) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · Tags: `validation` `types` `schema` |
 
 
 ## Media & Camera
@@ -316,11 +316,10 @@ Generated from `data/resources.yaml` via `npm run build:readme`.
 
 ## Device APIs
 
-### Device Utilities (7)
+### Device Utilities (6)
 
 | Resource | Why it helps | Signals |
 | --- | --- | --- |
-| [Expo OTP Autofill](https://github.com/MULERx/expo-otp-autofill)<br>![GitHub stars](https://img.shields.io/github/stars/mulerx/expo-otp-autofill?style=flat&logo=github&label=stars) | Native Expo wrapper for Android SMS Retriever API enabling OTP autofill without permissions. | ![platform: expo](https://img.shields.io/static/v1?label=platform&message=expo&color=3b82f6) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-20 · License: MIT · Tags: `otp` `sms` `autofill` `android` |
 | [React Native Keyboard Controller](https://github.com/kirillzyusko/react-native-keyboard-controller)<br>![GitHub stars](https://img.shields.io/github/stars/kirillzyusko/react-native-keyboard-controller?style=flat&logo=github&label=stars) | Cross-platform keyboard handling and animations for smoother input-heavy screens. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `keyboard` `input` `animations` |
 | [React Native NetInfo](https://github.com/react-native-netinfo/react-native-netinfo)<br>![GitHub stars](https://img.shields.io/github/stars/react-native-netinfo/react-native-netinfo?style=flat&logo=github&label=stars) | Network state and reachability API for monitoring connectivity changes in React Native apps. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `connectivity` `network` `device-apis` |
 | [React Native Permissions](https://github.com/zoontek/react-native-permissions)<br>![GitHub stars](https://img.shields.io/github/stars/zoontek/react-native-permissions?style=flat&logo=github&label=stars) | Standardized permission handling for iOS and Android device capabilities. | ![platform: react-native](https://img.shields.io/static/v1?label=platform&message=react-native&color=6366f1) ![type: library](https://img.shields.io/static/v1?label=type&message=library&color=7c3aed) ![source: community](https://img.shields.io/static/v1?label=source&message=community&color=0284c7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · License: MIT · Tags: `permissions` `device-apis` `native` |
@@ -475,6 +474,12 @@ Generated from `data/resources.yaml` via `npm run build:readme`.
 | Resource | Why it helps | Signals |
 | --- | --- | --- |
 | [Expo E2E Workflows Example](https://docs.expo.dev/eas/workflows/examples/e2e-tests/) | Practical E2E CI examples using EAS Workflows for mobile quality gates. | ![platform: expo](https://img.shields.io/static/v1?label=platform&message=expo&color=3b82f6) ![type: article](https://img.shields.io/static/v1?label=type&message=article&color=64748b) ![source: official](https://img.shields.io/static/v1?label=source&message=official&color=16a34a) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-03-04 · Tags: `e2e` `workflows` `expo` |
+
+### Other (1)
+
+| Resource | Why it helps | Signals |
+| --- | --- | --- |
+| [Sherlo](https://sherlo.io) | Cloud visual regression testing for React Native and Expo - iOS and Android simulators, diffs every screen, Storybook, free plan. | ![platform: both](https://img.shields.io/static/v1?label=platform&message=both&color=0ea5e9) ![type: service](https://img.shields.io/static/v1?label=type&message=service&color=a855f7) ![source: commercial](https://img.shields.io/static/v1?label=source&message=commercial&color=a855f7) ![maintained: yes](https://img.shields.io/static/v1?label=maintained&message=yes&color=16a34a)<br>Verified: 2026-08-04 · Tags: `visual-regression` `screenshot` `storybook` `ci` |
 
 
 ## Performance & Profiling
