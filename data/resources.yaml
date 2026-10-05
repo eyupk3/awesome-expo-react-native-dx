@@ -1168,6 +1168,23 @@
     - starter
     - supabase
     - expo
+- id: "mobile-app-code-template"
+  name: "Mobile App Code Template"
+  url: "https://github.com/robinsadeghpour/mobile-app-code-template"
+  category: "Starter Kits & Templates"
+  subcategory: "Community Templates"
+  platform: "expo"
+  type: "template"
+  description: "Expo + Supabase starter with email auth, deep links, in-app account deletion, RLS policies and tested auth flows."
+  last_verified: "2026-10-05"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - starter
+    - supabase
+    - expo
+    - auth
 - id: "crispy-expo-router"
   name: "Crispy (Expo Router Components)"
   url: "https://github.com/EvanBacon/crispy"
