@@ -480,6 +480,22 @@
     - components
     - material
     - theming
+- id: "otf-native-ui"
+  name: "OTF Native UI"
+  url: "https://github.com/otf-kit/sdk"
+  category: "UI & Styling"
+  subcategory: "Component Libraries"
+  platform: "both"
+  type: "library"
+  description: "Free MIT cross-platform UI kit with the same API on iOS, Android and web."
+  last_verified: "2026-10-17"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - components
+    - cross-platform
+    - expo
 - id: "shopify-restyle"
   name: "Shopify Restyle"
   url: "https://github.com/shopify/restyle"
