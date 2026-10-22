@@ -1168,6 +1168,22 @@
     - starter
     - supabase
     - expo
+- id: "otf-fitness-kit"
+  name: "OTF Fitness Kit"
+  url: "https://otf-kit.dev/templates/fitness-kit?utm_source=directory&utm_medium=organic&utm_campaign=first-sale-14d-20261016&utm_content=2026-10-22-awesome-rn-dx-fitness"
+  category: "Starter Kits & Templates"
+  subcategory: "Community Templates"
+  platform: "expo"
+  type: "template"
+  description: "Expo fitness starter with workouts, nutrition, progress photos, sign-in, and a Postgres-backed API."
+  last_verified: "2026-10-22"
+  source_kind: "commercial"
+  license: null
+  maintained: "yes"
+  tags:
+    - fitness
+    - starter
+    - postgres
 - id: "crispy-expo-router"
   name: "Crispy (Expo Router Components)"
   url: "https://github.com/EvanBacon/crispy"
