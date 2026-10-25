@@ -1440,6 +1440,23 @@
     - components
     - nativewind
     - uniwind
+- id: "expokit"
+  name: "ExpoKit"
+  url: "https://github.com/Anshkaran7/expokit"
+  category: "UI & Styling"
+  subcategory: "Component Libraries"
+  platform: "both"
+  type: "library"
+  description: "Animated, shadcn-style components, charts and screens for Expo; a CLI copies the source into your app."
+  last_verified: "2026-10-26"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - components
+    - ui-kit
+    - expo
+    - animation    
 - id: "react-native-unistyles"
   name: "React Native Unistyles"
   url: "https://github.com/jpudysz/react-native-unistyles"
