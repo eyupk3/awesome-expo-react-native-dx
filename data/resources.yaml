@@ -1328,6 +1328,23 @@
     - ui-kit
     - components
     - uniwind
+- id: "otf-ui-native"
+  name: "OTF UI Native"
+  url: "https://github.com/otf-kit/sdk/tree/main/packages/ui-native"
+  category: "UI & Styling"
+  subcategory: "Component Libraries"
+  platform: "both"
+  type: "library"
+  description: "85+ React Native components for Expo apps on iOS, Android, and web, sharing component names and design tokens with the web package."
+  last_verified: "2026-10-30"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - ui-kit
+    - components
+    - expo
+    - cross-platform
 - id: "gluestack-ui-repo"
   name: "Gluestack UI Repository"
   url: "https://github.com/gluestack/gluestack-ui"
