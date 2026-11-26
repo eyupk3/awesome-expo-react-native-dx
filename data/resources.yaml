@@ -2469,3 +2469,19 @@
     - dynamic-island
     - widgets
     - native
+- id: "react-native-text-avatar"
+  name: "React Native Text Avatar"
+  url: "https://github.com/hicay/react-native-text-avatar"
+  category: "UI & Styling"
+  subcategory: "Component Libraries"
+  platform: "both"
+  type: "library"
+  description: "Gmail-style initials avatars with stable per-name colors, multiple shapes, and light/dark variants; no native code."
+  last_verified: "2026-11-26"
+  source_kind: "community"
+  license: "MIT"
+  maintained: "yes"
+  tags:
+    - avatar
+    - components
+    - ui
